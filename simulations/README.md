@@ -6,3 +6,5 @@ The metadata file describes the sequence label, sampling time and the subgroup o
 The simulations outputs can be found at:
 - [`results/simulated_alignment.fasta`](https://github.com/blab/ai-phylogeo/blob/main/simulations/results/simulated_alignment.fasta) for the simulated sequence alignment
 - [`results/simulated_metadata.csv`](https://github.com/blab/ai-phylogeo/blob/main/simulations/results/simulated_metadata.csv) for the corresponding simulated metadata
+
+**Note:** This workflow relies on a local installation of BEAST and R. Next steps could include including them in a Docker container.
