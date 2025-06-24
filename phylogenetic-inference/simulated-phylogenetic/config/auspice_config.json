@@ -17,7 +17,7 @@
     },
     {
       "key": "subgroup",
-      "title": "subgroup",
+      "title": "Subgroup",
       "type": "categorical"
     }
   ],
@@ -28,6 +28,6 @@
     "map_triplicate": true
   },
   "filters": [
-    "subgroup"
+    "Subgroup"
   ]
 }
