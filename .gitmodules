@@ -1,3 +1,0 @@
-[submodule "simulations/simulated_phylogenetic"]
-	path = simulations/simulated_phylogenetic
-	url = https://github.com/blab/ai-phylogeo.git

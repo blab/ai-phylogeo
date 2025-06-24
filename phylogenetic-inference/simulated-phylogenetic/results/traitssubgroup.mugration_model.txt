@@ -1,0 +1,25 @@
+Map from character to field name
+A:	A
+B:	B
+C:	C
+D:	?
+
+
+Substitution rate (mu): 14.055073
+
+Equilibrium frequencies (pi_i):
+  A: 0.2014
+  B: 0.4593
+  C: 0.3393
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C
+  A	0	1.8116	1.4722
+  B	1.8116	0	1.4875
+  C	1.4722	1.4875	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C
+  A	0	0.3649	0.2965
+  B	0.8321	0	0.6832
+  C	0.4996	0.5047	0
