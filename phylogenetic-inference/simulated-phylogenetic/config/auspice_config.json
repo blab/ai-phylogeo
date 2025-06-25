@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Lucy O'Brien", "url": "http://bedford.io/team/lucy-obrien/"}
   ],
-  "build_url": "https://github.com/nextstrain/zika-tutorial",
+  "build_url": "https://github.com/nextstrain/simulated-data",
   "colorings": [
     {
       "key": "gt",

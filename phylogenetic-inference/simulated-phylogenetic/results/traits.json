@@ -1,0 +1,1030 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "31.2.1"
+  },
+  "models": {
+    "subgroup": {
+      "alphabet": [
+        "A",
+        "B",
+        "C",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.19897017883652135,
+        0.4579512970182398,
+        0.3430785241452389
+      ],
+      "rate": 14.016377951088755,
+      "transition_matrix": [
+        [
+          0.0,
+          1.824456395399309,
+          1.4893899055420308
+        ],
+        [
+          1.824456395399309,
+          0.0,
+          1.4772061780130892
+        ],
+        [
+          1.4893899055420308,
+          1.4772061780130892,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "NODE_0000000": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "A": 0.0861307124099058,
+        "B": 0.9134471147168646
+      },
+      "subgroup_entropy": 0.29715747196335784
+    },
+    "NODE_0000001": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9998276667184308
+      },
+      "subgroup_entropy": 0.0017521775254409437
+    },
+    "NODE_0000002": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.0017777510572411063,
+        "C": 0.9975688085186761
+      },
+      "subgroup_entropy": 0.018477523485465323
+    },
+    "NODE_0000004": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.02616794457932225,
+        "C": 0.9735159781714016
+      },
+      "subgroup_entropy": 0.12401319645175159
+    },
+    "NODE_0000005": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.0010117485874249824,
+        "C": 0.9989640198241164
+      },
+      "subgroup_entropy": 0.008270067443851305
+    },
+    "NODE_0000007": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999731218183127
+      },
+      "subgroup_entropy": 0.000324285457327168
+    },
+    "NODE_0000010": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "A": 0.27907525824163615,
+        "B": 0.6373903390418136,
+        "C": 0.08353440271655031
+      },
+      "subgroup_entropy": 0.8506137395630555
+    },
+    "NODE_0000011": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.0011445802870887886,
+        "C": 0.9985492515713715
+      },
+      "subgroup_entropy": 0.011678935849519255
+    },
+    "NODE_0000012": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9995062468121488
+      },
+      "subgroup_entropy": 0.0043345929046706855
+    },
+    "NODE_0000013": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.005285438052320296,
+        "C": 0.9946381396796087
+      },
+      "subgroup_entropy": 0.03378237797426946
+    },
+    "NODE_0000014": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999413798503213
+      },
+      "subgroup_entropy": 0.0006365709182707275
+    },
+    "NODE_0000015": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999646820911108
+      },
+      "subgroup_entropy": 0.0004133447052633626
+    },
+    "NODE_0000016": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999852828797112
+      },
+      "subgroup_entropy": 0.00018754842667549946
+    },
+    "NODE_0000017": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999960194111043
+      },
+      "subgroup_entropy": 5.552838583832836e-05
+    },
+    "NODE_0000018": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.999965938211846
+      },
+      "subgroup_entropy": 0.00040542324865956833
+    },
+    "NODE_0000019": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999690649222466
+      },
+      "subgroup_entropy": 0.00037125166908368967
+    },
+    "NODE_0000020": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9998358845043143
+      },
+      "subgroup_entropy": 0.0016135553844332602
+    },
+    "NODE_0000021": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.002517704544798685,
+        "C": 0.9974604137734265
+      },
+      "subgroup_entropy": 0.017838116571654475
+    },
+    "NODE_0000022": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9998423958569991
+      },
+      "subgroup_entropy": 0.0015503613810784228
+    },
+    "NODE_0000023": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999923391827135
+      },
+      "subgroup_entropy": 0.00010252532589222815
+    },
+    "NODE_0000024": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9998796365309536
+      },
+      "subgroup_entropy": 0.0012195469743247103
+    },
+    "NODE_0000025": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.007194014843543162,
+        "C": 0.99252442910766
+      },
+      "subgroup_entropy": 0.045248238501089805
+    },
+    "NODE_0000026": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9942894077742556,
+        "C": 0.00544217843235623
+      },
+      "subgroup_entropy": 0.03627462717627125
+    },
+    "NODE_0000027": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.5047055028002617,
+        "C": 0.495054114667588
+      },
+      "subgroup_entropy": 0.6951775018638366
+    },
+    "NODE_0000028": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.5137875105348314,
+        "C": 0.4860279119897385
+      },
+      "subgroup_entropy": 0.6944052773299039
+    },
+    "NODE_0000029": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.44458752953545494,
+        "C": 0.5548700377313311
+      },
+      "subgroup_entropy": 0.6912954508736868
+    },
+    "NODE_0000030": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.009185603412029663,
+        "C": 0.9907553598959993
+      },
+      "subgroup_entropy": 0.052858199822533015
+    },
+    "NODE_0000031": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9915266038483139,
+        "C": 0.00826981401938336
+      },
+      "subgroup_entropy": 0.04982267237557554
+    },
+    "NODE_0000032": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9993406221554668
+      },
+      "subgroup_entropy": 0.005606018012891666
+    },
+    "NODE_0000033": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999684978209263
+      },
+      "subgroup_entropy": 0.00037561099409550043
+    },
+    "NODE_0000034": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999859824898305
+      },
+      "subgroup_entropy": 0.00018028054962065886
+    },
+    "NODE_0000035": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999484355242385
+      },
+      "subgroup_entropy": 0.0005887743561499699
+    },
+    "NODE_0000036": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "B": 0.002393319278085978,
+        "C": 0.9968196396283393
+      },
+      "subgroup_entropy": 0.023244320528971955
+    },
+    "NODE_0000037": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "A": 0.05458809151496783,
+        "B": 0.19899050960054845,
+        "C": 0.7464213988844836
+      },
+      "subgroup_entropy": 0.6983107825184056
+    },
+    "NODE_0000038": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "A": 0.175360556108943,
+        "B": 0.056032568135063424,
+        "C": 0.7686068757559936
+      },
+      "subgroup_entropy": 0.6690416551965024
+    },
+    "NODE_0000039": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.999306532255233
+      },
+      "subgroup_entropy": 0.006134411992748857
+    },
+    "NODE_0000040": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.860543985346911,
+        "B": 0.0014456341283255127,
+        "C": 0.13801038052476344
+      },
+      "subgroup_entropy": 0.4120182720478147
+    },
+    "NODE_0000041": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.8660474190745466,
+        "C": 0.1332409383387671
+      },
+      "subgroup_entropy": 0.39826901373923174
+    },
+    "NODE_0000042": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9878013196119184,
+        "C": 0.011602691483443839
+      },
+      "subgroup_entropy": 0.06825696721733265
+    },
+    "NODE_0000043": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9977238022848716,
+        "C": 0.001479007485513651
+      },
+      "subgroup_entropy": 0.01759887367743658
+    },
+    "NODE_0000044": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9867826124820541,
+        "B": 0.012723749280941766
+      },
+      "subgroup_entropy": 0.07241813590219758
+    },
+    "NODE_0000045": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9875074329005475,
+        "B": 0.0013058998537345255,
+        "C": 0.011186667245717902
+      },
+      "subgroup_entropy": 0.07134857093106664
+    },
+    "NODE_0000046": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.42956594199048287,
+        "B": 0.31103123013801803,
+        "C": 0.259402827871499
+      },
+      "subgroup_entropy": 1.0762473765484102
+    },
+    "NODE_0000047": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9997420240739717
+      },
+      "subgroup_entropy": 0.0024994229890444486
+    },
+    "NODE_0000048": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999960715999066
+      },
+      "subgroup_entropy": 5.553975853974023e-05
+    },
+    "NODE_0000049": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9998208013009767
+      },
+      "subgroup_entropy": 0.001785212524914947
+    },
+    "NODE_0000050": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "A": 0.0026294419847350922,
+        "C": 0.9972762912299009
+      },
+      "subgroup_entropy": 0.019215262694037897
+    },
+    "NODE_0000051": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.8623289575363328,
+        "C": 0.13697761513566942
+      },
+      "subgroup_entropy": 0.40507370658250236
+    },
+    "NODE_0000052": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.8536322156718892,
+        "B": 0.0013108303097453275,
+        "C": 0.1450569540183654
+      },
+      "subgroup_entropy": 0.42384267034722395
+    },
+    "NODE_0000053": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9986648687239025,
+        "C": 0.001082915216706412
+      },
+      "subgroup_entropy": 0.010818158127389123
+    },
+    "NODE_0000055": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9839346936197145,
+        "B": 0.015194324701446169
+      },
+      "subgroup_entropy": 0.08568850801073359
+    },
+    "NODE_0000056": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.999994659940629
+      },
+      "subgroup_entropy": 7.386008190953799e-05
+    },
+    "NODE_0000057": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999950543182657
+      },
+      "subgroup_entropy": 6.612007265891531e-05
+    },
+    "NODE_0000059": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9967081074379419,
+        "B": 0.002012747195282683,
+        "C": 0.0012791453667752581
+      },
+      "subgroup_entropy": 0.024303223196199455
+    },
+    "NODE_0000062": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9772873379964296,
+        "B": 0.022291790305800602
+      },
+      "subgroup_entropy": 0.1105119118819008
+    },
+    "NODE_0000063": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "A": 0.4640562480342285,
+        "B": 0.5355359722517876
+      },
+      "subgroup_entropy": 0.6938969578763702
+    },
+    "NODE_0000065": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.7117020982644369,
+        "B": 0.23288438009715112,
+        "C": 0.055413521638412185
+      },
+      "subgroup_entropy": 0.7417166508596896
+    },
+    "NODE_0000066": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "A": 0.014351373695211809,
+        "B": 0.9855162948164572
+      },
+      "subgroup_entropy": 0.07646598574604502
+    },
+    "NODE_0000067": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9998421731403401
+      },
+      "subgroup_entropy": 0.0015534777763933495
+    },
+    "NODE_0000068": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.999977949129997
+      },
+      "subgroup_entropy": 0.0002702086748645504
+    },
+    "NODE_0000069": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999967849414384
+      },
+      "subgroup_entropy": 4.554691721617583e-05
+    },
+    "NODE_0000070": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999976651677802
+      },
+      "subgroup_entropy": 3.422674624156588e-05
+    },
+    "leaf_0": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_1": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_10": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_11": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_12": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_13": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_14": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_15": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_16": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_17": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_18": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_19": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_2": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_20": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_21": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_22": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_23": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_24": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_25": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_26": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_27": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_28": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_29": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_3": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_30": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_31": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_32": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_33": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_34": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_35": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_36": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_37": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_38": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_39": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_4": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_40": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_41": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_42": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_43": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_44": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_45": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_46": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_47": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_48": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_49": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_5": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_50": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_51": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_52": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_53": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_54": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_55": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_56": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_57": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_58": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_59": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_6": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_60": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_61": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_62": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_63": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_64": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_65": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_66": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_67": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_68": {
+      "subgroup": "A",
+      "subgroup_confidence": {
+        "A": 0.9999999999999999
+      },
+      "subgroup_entropy": -9.99866855976916e-13
+    },
+    "leaf_69": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_7": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_70": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_71": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_72": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_8": {
+      "subgroup": "B",
+      "subgroup_confidence": {
+        "B": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    },
+    "leaf_9": {
+      "subgroup": "C",
+      "subgroup_confidence": {
+        "C": 1.0
+      },
+      "subgroup_entropy": -1.000088900581841e-12
+    }
+  }
+}
