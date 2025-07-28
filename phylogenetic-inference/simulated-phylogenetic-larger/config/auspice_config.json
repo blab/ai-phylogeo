@@ -1,0 +1,33 @@
+{
+  "title": "Evolution of Simulated Data",
+  "maintainers": [
+    {"name": "Lucy O'Brien", "url": "http://bedford.io/team/lucy-obrien/"}
+  ],
+  "build_url": "https://github.com/nextstrain/simulated-data",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "time",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "subgroup",
+      "title": "Subgroup",
+      "type": "categorical"
+    }
+  ],
+  "panels": [
+     "tree"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "Subgroup"
+  ]
+}

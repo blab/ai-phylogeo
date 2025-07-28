@@ -1,0 +1,2518 @@
+IQ-TREE multicore version 2.3.5.cmaple COVID-edition for Linux x86 64-bit built May 27 2024
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    13161d8496ff (SSE4.2, 7 GB RAM)
+Command: iqtree --threads-max 1 -s data/simulated_alignment_larger-delim.fasta -m GTR --ninit 2 -n 2 --epsilon 0.05 -T AUTO --redo
+Seed:    718088 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jul 28 15:52:07 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file data/simulated_alignment_larger-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.273147 secs using 88.95% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 2434 sequences with 5000 columns, 5000 distinct patterns
+4982 parsimony-informative, 18 singleton sites, 0 constant sites
+           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.12519 secs using 98.85% CPU
+   1  leaf_0       0.00%    passed     84.44%
+   2  leaf_1       0.00%    passed     82.50%
+   3  leaf_2       0.00%    passed     90.79%
+   4  leaf_3       0.00%    passed     99.44%
+   5  leaf_4       0.00%    passed     99.23%
+   6  leaf_5       0.00%    passed     96.75%
+   7  leaf_6       0.00%    passed     92.68%
+   8  leaf_7       0.00%    passed     96.37%
+   9  leaf_8       0.00%    passed     99.74%
+  10  leaf_9       0.00%    passed     95.46%
+  11  leaf_10      0.00%    passed    100.00%
+  12  leaf_11      0.00%    passed     93.34%
+  13  leaf_12      0.00%    passed     96.90%
+  14  leaf_13      0.00%    passed     97.96%
+  15  leaf_14      0.00%    passed     99.12%
+  16  leaf_15      0.00%    passed     99.87%
+  17  leaf_16      0.00%    passed     96.16%
+  18  leaf_17      0.00%    passed     92.24%
+  19  leaf_18      0.00%    passed     99.44%
+  20  leaf_19      0.00%    passed     98.81%
+  21  leaf_20      0.00%    passed     94.16%
+  22  leaf_21      0.00%    passed     98.41%
+  23  leaf_22      0.00%    passed     99.74%
+  24  leaf_23      0.00%    passed     99.12%
+  25  leaf_24      0.00%    passed     99.38%
+  26  leaf_25      0.00%    passed     99.49%
+  27  leaf_26      0.00%    passed     99.63%
+  28  leaf_27      0.00%    passed     99.23%
+  29  leaf_28      0.00%    passed     99.71%
+  30  leaf_29      0.00%    passed     97.15%
+  31  leaf_30      0.00%    passed     93.52%
+  32  leaf_31      0.00%    passed     99.40%
+  33  leaf_32      0.00%    passed     96.36%
+  34  leaf_33      0.00%    passed     96.34%
+  35  leaf_34      0.00%    passed     96.96%
+  36  leaf_35      0.00%    passed     99.33%
+  37  leaf_36      0.00%    passed     98.33%
+  38  leaf_37      0.00%    passed     95.86%
+  39  leaf_38      0.00%    passed     99.92%
+  40  leaf_39      0.00%    passed     98.20%
+  41  leaf_40      0.00%    passed     99.53%
+  42  leaf_41      0.00%    passed     99.59%
+  43  leaf_42      0.00%    passed     99.63%
+  44  leaf_43      0.00%    passed     98.94%
+  45  leaf_44      0.00%    passed     95.14%
+  46  leaf_45      0.00%    passed     99.21%
+  47  leaf_46      0.00%    passed     98.43%
+  48  leaf_47      0.00%    passed     91.38%
+  49  leaf_48      0.00%    passed     92.83%
+  50  leaf_49      0.00%    passed     99.87%
+  51  leaf_50      0.00%    passed     99.64%
+  52  leaf_51      0.00%    passed     99.73%
+  53  leaf_52      0.00%    passed     94.76%
+  54  leaf_53      0.00%    passed     98.95%
+  55  leaf_54      0.00%    passed     93.54%
+  56  leaf_55      0.00%    passed     99.36%
+  57  leaf_56      0.00%    passed     97.15%
+  58  leaf_57      0.00%    passed     99.39%
+  59  leaf_58      0.00%    passed     97.87%
+  60  leaf_59      0.00%    passed     99.78%
+  61  leaf_60      0.00%    passed     98.80%
+  62  leaf_61      0.00%    passed     99.39%
+  63  leaf_62      0.00%    passed     99.85%
+  64  leaf_63      0.00%    passed     98.74%
+  65  leaf_64      0.00%    passed     98.04%
+  66  leaf_65      0.00%    passed     99.26%
+  67  leaf_66      0.00%    passed     98.33%
+  68  leaf_67      0.00%    passed     92.95%
+  69  leaf_68      0.00%    passed     95.77%
+  70  leaf_69      0.00%    passed     97.59%
+  71  leaf_70      0.00%    passed     99.74%
+  72  leaf_71      0.00%    passed     98.89%
+  73  leaf_72      0.00%    passed     94.26%
+  74  leaf_73      0.00%    passed     97.94%
+  75  leaf_74      0.00%    passed     98.54%
+  76  leaf_75      0.00%    passed     99.56%
+  77  leaf_76      0.00%    passed     99.55%
+  78  leaf_77      0.00%    passed     99.40%
+  79  leaf_78      0.00%    passed     99.45%
+  80  leaf_79      0.00%    passed     97.72%
+  81  leaf_80      0.00%    passed     99.19%
+  82  leaf_81      0.00%    passed     99.95%
+  83  leaf_82      0.00%    passed     97.53%
+  84  leaf_83      0.00%    passed     91.60%
+  85  leaf_84      0.00%    passed     99.82%
+  86  leaf_85      0.00%    passed     99.86%
+  87  leaf_86      0.00%    passed     98.95%
+  88  leaf_87      0.00%    passed     99.66%
+  89  leaf_88      0.00%    passed     99.51%
+  90  leaf_89      0.00%    passed     99.35%
+  91  leaf_90      0.00%    passed     98.50%
+  92  leaf_91      0.00%    passed     99.12%
+  93  leaf_92      0.00%    passed     93.54%
+  94  leaf_93      0.00%    passed     94.99%
+  95  leaf_94      0.00%    passed     98.18%
+  96  leaf_95      0.00%    passed     98.90%
+  97  leaf_96      0.00%    passed     89.43%
+  98  leaf_97      0.00%    passed     93.50%
+  99  leaf_98      0.00%    passed     98.24%
+ 100  leaf_99      0.00%    passed     95.20%
+ 101  leaf_100     0.00%    passed     99.61%
+ 102  leaf_101     0.00%    passed     99.90%
+ 103  leaf_102     0.00%    passed     92.48%
+ 104  leaf_103     0.00%    passed     97.42%
+ 105  leaf_104     0.00%    passed    100.00%
+ 106  leaf_105     0.00%    passed     96.43%
+ 107  leaf_106     0.00%    passed     99.94%
+ 108  leaf_107     0.00%    passed     98.01%
+ 109  leaf_108     0.00%    passed     98.31%
+ 110  leaf_109     0.00%    passed     99.08%
+ 111  leaf_110     0.00%    passed     99.52%
+ 112  leaf_111     0.00%    passed     99.94%
+ 113  leaf_112     0.00%    passed     98.87%
+ 114  leaf_113     0.00%    passed     98.25%
+ 115  leaf_114     0.00%    passed     99.90%
+ 116  leaf_115     0.00%    passed     97.34%
+ 117  leaf_116     0.00%    passed     97.99%
+ 118  leaf_117     0.00%    passed     87.39%
+ 119  leaf_118     0.00%    passed     99.98%
+ 120  leaf_119     0.00%    passed     97.44%
+ 121  leaf_120     0.00%    passed     98.48%
+ 122  leaf_121     0.00%    passed     99.69%
+ 123  leaf_122     0.00%    passed     95.58%
+ 124  leaf_123     0.00%    passed     97.58%
+ 125  leaf_124     0.00%    passed     89.27%
+ 126  leaf_125     0.00%    passed     98.13%
+ 127  leaf_126     0.00%    passed     99.84%
+ 128  leaf_127     0.00%    passed     99.90%
+ 129  leaf_128     0.00%    passed     97.64%
+ 130  leaf_129     0.00%    passed     98.08%
+ 131  leaf_130     0.00%    passed     97.91%
+ 132  leaf_131     0.00%    passed     96.01%
+ 133  leaf_132     0.00%    passed     98.41%
+ 134  leaf_133     0.00%    passed     95.00%
+ 135  leaf_134     0.00%    passed     99.70%
+ 136  leaf_135     0.00%    passed     99.25%
+ 137  leaf_136     0.00%    passed     99.66%
+ 138  leaf_137     0.00%    passed     97.63%
+ 139  leaf_138     0.00%    passed     95.88%
+ 140  leaf_139     0.00%    passed     99.64%
+ 141  leaf_140     0.00%    passed     99.55%
+ 142  leaf_141     0.00%    passed     98.28%
+ 143  leaf_142     0.00%    passed     94.84%
+ 144  leaf_143     0.00%    passed     96.79%
+ 145  leaf_144     0.00%    passed     99.02%
+ 146  leaf_145     0.00%    passed     98.35%
+ 147  leaf_146     0.00%    passed     99.93%
+ 148  leaf_147     0.00%    passed     99.93%
+ 149  leaf_148     0.00%    passed     97.74%
+ 150  leaf_149     0.00%    passed     99.58%
+ 151  leaf_150     0.00%    passed     99.51%
+ 152  leaf_151     0.00%    passed     99.91%
+ 153  leaf_152     0.00%    passed     98.30%
+ 154  leaf_153     0.00%    passed     99.95%
+ 155  leaf_154     0.00%    passed     98.88%
+ 156  leaf_155     0.00%    passed    100.00%
+ 157  leaf_156     0.00%    passed     97.98%
+ 158  leaf_157     0.00%    passed     98.14%
+ 159  leaf_158     0.00%    passed     98.08%
+ 160  leaf_159     0.00%    passed     94.95%
+ 161  leaf_160     0.00%    passed     98.11%
+ 162  leaf_161     0.00%    passed     88.87%
+ 163  leaf_162     0.00%    passed     98.97%
+ 164  leaf_163     0.00%    passed     98.91%
+ 165  leaf_164     0.00%    passed     95.48%
+ 166  leaf_165     0.00%    passed     98.48%
+ 167  leaf_166     0.00%    passed     94.67%
+ 168  leaf_167     0.00%    passed     99.74%
+ 169  leaf_168     0.00%    passed     99.98%
+ 170  leaf_169     0.00%    passed     99.87%
+ 171  leaf_170     0.00%    passed     99.86%
+ 172  leaf_171     0.00%    passed     99.29%
+ 173  leaf_172     0.00%    passed     97.89%
+ 174  leaf_173     0.00%    passed     99.70%
+ 175  leaf_174     0.00%    passed     96.90%
+ 176  leaf_175     0.00%    passed     99.30%
+ 177  leaf_176     0.00%    passed     99.98%
+ 178  leaf_177     0.00%    passed     99.54%
+ 179  leaf_178     0.00%    passed     99.39%
+ 180  leaf_179     0.00%    passed     99.79%
+ 181  leaf_180     0.00%    passed     99.50%
+ 182  leaf_181     0.00%    passed     98.65%
+ 183  leaf_182     0.00%    passed     98.53%
+ 184  leaf_183     0.00%    passed     97.55%
+ 185  leaf_184     0.00%    passed     95.17%
+ 186  leaf_185     0.00%    passed     99.67%
+ 187  leaf_186     0.00%    passed     99.22%
+ 188  leaf_187     0.00%    passed     98.19%
+ 189  leaf_188     0.00%    passed     95.75%
+ 190  leaf_189     0.00%    passed     99.21%
+ 191  leaf_190     0.00%    passed     94.25%
+ 192  leaf_191     0.00%    passed     99.65%
+ 193  leaf_192     0.00%    passed     99.81%
+ 194  leaf_193     0.00%    passed     99.85%
+ 195  leaf_194     0.00%    passed     97.59%
+ 196  leaf_195     0.00%    passed     99.48%
+ 197  leaf_196     0.00%    passed     98.03%
+ 198  leaf_197     0.00%    passed     98.08%
+ 199  leaf_198     0.00%    passed     96.86%
+ 200  leaf_199     0.00%    passed     99.23%
+ 201  leaf_200     0.00%    passed     95.36%
+ 202  leaf_201     0.00%    passed     99.36%
+ 203  leaf_202     0.00%    passed     95.81%
+ 204  leaf_203     0.00%    passed     99.93%
+ 205  leaf_204     0.00%    passed     96.91%
+ 206  leaf_205     0.00%    passed     95.01%
+ 207  leaf_206     0.00%    passed     98.12%
+ 208  leaf_207     0.00%    passed     99.83%
+ 209  leaf_208     0.00%    passed     98.09%
+ 210  leaf_209     0.00%    passed     96.23%
+ 211  leaf_210     0.00%    passed     97.44%
+ 212  leaf_211     0.00%    passed     98.53%
+ 213  leaf_212     0.00%    passed     99.56%
+ 214  leaf_213     0.00%    passed     99.93%
+ 215  leaf_214     0.00%    passed     99.97%
+ 216  leaf_215     0.00%    passed     99.70%
+ 217  leaf_216     0.00%    passed     97.75%
+ 218  leaf_217     0.00%    passed     99.53%
+ 219  leaf_218     0.00%    passed     99.77%
+ 220  leaf_219     0.00%    passed     99.90%
+ 221  leaf_220     0.00%    passed     98.57%
+ 222  leaf_221     0.00%    passed     98.85%
+ 223  leaf_222     0.00%    passed     98.71%
+ 224  leaf_223     0.00%    passed     98.79%
+ 225  leaf_224     0.00%    passed     99.51%
+ 226  leaf_225     0.00%    passed     99.53%
+ 227  leaf_226     0.00%    passed     97.53%
+ 228  leaf_227     0.00%    passed     99.50%
+ 229  leaf_228     0.00%    passed     95.78%
+ 230  leaf_229     0.00%    passed     99.20%
+ 231  leaf_230     0.00%    passed     98.79%
+ 232  leaf_231     0.00%    passed     99.20%
+ 233  leaf_232     0.00%    passed     99.84%
+ 234  leaf_233     0.00%    passed     98.68%
+ 235  leaf_234     0.00%    passed     99.47%
+ 236  leaf_235     0.00%    passed     99.53%
+ 237  leaf_236     0.00%    passed     98.32%
+ 238  leaf_237     0.00%    passed     98.83%
+ 239  leaf_238     0.00%    passed     99.83%
+ 240  leaf_239     0.00%    passed     99.90%
+ 241  leaf_240     0.00%    passed     99.98%
+ 242  leaf_241     0.00%    passed     99.39%
+ 243  leaf_242     0.00%    passed     98.68%
+ 244  leaf_243     0.00%    passed     99.84%
+ 245  leaf_244     0.00%    passed     95.10%
+ 246  leaf_245     0.00%    passed     98.20%
+ 247  leaf_246     0.00%    passed     99.59%
+ 248  leaf_247     0.00%    passed     98.11%
+ 249  leaf_248     0.00%    passed     93.40%
+ 250  leaf_249     0.00%    passed     89.02%
+ 251  leaf_250     0.00%    passed     95.92%
+ 252  leaf_251     0.00%    passed     99.64%
+ 253  leaf_252     0.00%    passed     99.72%
+ 254  leaf_253     0.00%    passed     99.75%
+ 255  leaf_254     0.00%    passed     99.81%
+ 256  leaf_255     0.00%    passed     98.58%
+ 257  leaf_256     0.00%    passed     99.98%
+ 258  leaf_257     0.00%    passed     99.09%
+ 259  leaf_258     0.00%    passed     99.74%
+ 260  leaf_259     0.00%    passed     99.74%
+ 261  leaf_260     0.00%    passed     99.72%
+ 262  leaf_261     0.00%    passed     99.90%
+ 263  leaf_262     0.00%    passed     94.22%
+ 264  leaf_263     0.00%    passed     95.44%
+ 265  leaf_264     0.00%    passed     99.07%
+ 266  leaf_265     0.00%    passed     97.96%
+ 267  leaf_266     0.00%    passed     99.40%
+ 268  leaf_267     0.00%    passed     99.92%
+ 269  leaf_268     0.00%    passed     99.70%
+ 270  leaf_269     0.00%    passed     99.17%
+ 271  leaf_270     0.00%    passed     99.70%
+ 272  leaf_271     0.00%    passed     96.89%
+ 273  leaf_272     0.00%    passed     95.14%
+ 274  leaf_273     0.00%    passed     99.37%
+ 275  leaf_274     0.00%    passed     99.94%
+ 276  leaf_275     0.00%    passed     99.71%
+ 277  leaf_276     0.00%    passed     98.04%
+ 278  leaf_277     0.00%    passed     97.89%
+ 279  leaf_278     0.00%    passed     95.83%
+ 280  leaf_279     0.00%    passed     99.83%
+ 281  leaf_280     0.00%    passed     98.75%
+ 282  leaf_281     0.00%    passed     98.42%
+ 283  leaf_282     0.00%    passed     99.81%
+ 284  leaf_283     0.00%    passed     95.43%
+ 285  leaf_284     0.00%    passed     99.04%
+ 286  leaf_285     0.00%    passed     97.44%
+ 287  leaf_286     0.00%    passed     97.67%
+ 288  leaf_287     0.00%    passed     99.76%
+ 289  leaf_288     0.00%    passed     95.67%
+ 290  leaf_289     0.00%    passed     95.16%
+ 291  leaf_290     0.00%    passed     96.04%
+ 292  leaf_291     0.00%    passed     98.37%
+ 293  leaf_292     0.00%    passed     99.81%
+ 294  leaf_293     0.00%    passed     99.90%
+ 295  leaf_294     0.00%    passed     98.69%
+ 296  leaf_295     0.00%    passed     99.88%
+ 297  leaf_296     0.00%    passed     91.58%
+ 298  leaf_297     0.00%    passed     97.03%
+ 299  leaf_298     0.00%    passed     99.82%
+ 300  leaf_299     0.00%    passed     99.93%
+ 301  leaf_300     0.00%    passed     96.33%
+ 302  leaf_301     0.00%    passed     98.28%
+ 303  leaf_302     0.00%    passed     98.45%
+ 304  leaf_303     0.00%    passed     99.59%
+ 305  leaf_304     0.00%    passed     97.93%
+ 306  leaf_305     0.00%    passed     99.04%
+ 307  leaf_306     0.00%    passed     99.77%
+ 308  leaf_307     0.00%    passed     99.47%
+ 309  leaf_308     0.00%    passed     97.51%
+ 310  leaf_309     0.00%    passed     98.54%
+ 311  leaf_310     0.00%    passed     98.07%
+ 312  leaf_311     0.00%    passed     95.62%
+ 313  leaf_312     0.00%    passed     96.41%
+ 314  leaf_313     0.00%    passed     99.62%
+ 315  leaf_314     0.00%    passed     99.23%
+ 316  leaf_315     0.00%    passed     98.97%
+ 317  leaf_316     0.00%    passed     99.19%
+ 318  leaf_317     0.00%    passed     96.28%
+ 319  leaf_318     0.00%    passed     99.70%
+ 320  leaf_319     0.00%    passed     97.97%
+ 321  leaf_320     0.00%    passed     95.02%
+ 322  leaf_321     0.00%    passed     99.51%
+ 323  leaf_322     0.00%    passed     95.06%
+ 324  leaf_323     0.00%    passed     99.39%
+ 325  leaf_324     0.00%    passed     99.18%
+ 326  leaf_325     0.00%    passed     99.85%
+ 327  leaf_326     0.00%    passed     97.85%
+ 328  leaf_327     0.00%    passed     94.77%
+ 329  leaf_328     0.00%    passed     99.52%
+ 330  leaf_329     0.00%    passed     97.12%
+ 331  leaf_330     0.00%    passed     95.61%
+ 332  leaf_331     0.00%    passed     99.93%
+ 333  leaf_332     0.00%    passed     98.61%
+ 334  leaf_333     0.00%    passed     98.60%
+ 335  leaf_334     0.00%    passed     98.63%
+ 336  leaf_335     0.00%    passed     99.55%
+ 337  leaf_336     0.00%    passed     99.71%
+ 338  leaf_337     0.00%    passed     99.58%
+ 339  leaf_338     0.00%    passed     99.80%
+ 340  leaf_339     0.00%    passed     99.80%
+ 341  leaf_340     0.00%    passed     91.62%
+ 342  leaf_341     0.00%    passed     92.26%
+ 343  leaf_342     0.00%    passed     99.39%
+ 344  leaf_343     0.00%    passed     98.95%
+ 345  leaf_344     0.00%    passed     97.03%
+ 346  leaf_345     0.00%    passed     99.04%
+ 347  leaf_346     0.00%    passed     99.95%
+ 348  leaf_347     0.00%    passed     95.14%
+ 349  leaf_348     0.00%    passed     99.77%
+ 350  leaf_349     0.00%    passed     97.69%
+ 351  leaf_350     0.00%    passed     98.00%
+ 352  leaf_351     0.00%    passed     95.47%
+ 353  leaf_352     0.00%    passed     99.32%
+ 354  leaf_353     0.00%    passed     98.83%
+ 355  leaf_354     0.00%    passed     97.22%
+ 356  leaf_355     0.00%    passed     99.96%
+ 357  leaf_356     0.00%    passed     94.68%
+ 358  leaf_357     0.00%    passed     99.35%
+ 359  leaf_358     0.00%    passed     99.83%
+ 360  leaf_359     0.00%    passed     99.19%
+ 361  leaf_360     0.00%    passed     94.11%
+ 362  leaf_361     0.00%    passed     99.29%
+ 363  leaf_362     0.00%    passed     97.03%
+ 364  leaf_363     0.00%    passed     99.93%
+ 365  leaf_364     0.00%    passed     99.71%
+ 366  leaf_365     0.00%    passed     98.10%
+ 367  leaf_366     0.00%    passed     99.02%
+ 368  leaf_367     0.00%    passed     99.06%
+ 369  leaf_368     0.00%    passed     99.66%
+ 370  leaf_369     0.00%    passed     99.30%
+ 371  leaf_370     0.00%    passed     98.38%
+ 372  leaf_371     0.00%    passed     99.85%
+ 373  leaf_372     0.00%    passed     99.81%
+ 374  leaf_373     0.00%    passed     99.62%
+ 375  leaf_374     0.00%    passed     99.99%
+ 376  leaf_375     0.00%    passed     99.95%
+ 377  leaf_376     0.00%    passed     97.93%
+ 378  leaf_377     0.00%    passed     99.61%
+ 379  leaf_378     0.00%    passed     96.51%
+ 380  leaf_379     0.00%    passed     97.34%
+ 381  leaf_380     0.00%    passed     99.00%
+ 382  leaf_381     0.00%    passed     99.23%
+ 383  leaf_382     0.00%    passed     99.35%
+ 384  leaf_383     0.00%    passed     97.18%
+ 385  leaf_384     0.00%    passed     96.38%
+ 386  leaf_385     0.00%    passed     99.03%
+ 387  leaf_386     0.00%    passed     99.89%
+ 388  leaf_387     0.00%    passed     99.64%
+ 389  leaf_388     0.00%    passed     95.22%
+ 390  leaf_389     0.00%    passed     99.80%
+ 391  leaf_390     0.00%    passed     99.59%
+ 392  leaf_391     0.00%    passed     98.93%
+ 393  leaf_392     0.00%    passed     99.87%
+ 394  leaf_393     0.00%    passed     87.28%
+ 395  leaf_394     0.00%    passed     97.65%
+ 396  leaf_395     0.00%    passed     99.66%
+ 397  leaf_396     0.00%    passed     98.14%
+ 398  leaf_397     0.00%    passed     98.93%
+ 399  leaf_398     0.00%    passed     99.53%
+ 400  leaf_399     0.00%    passed     96.75%
+ 401  leaf_400     0.00%    passed     98.76%
+ 402  leaf_401     0.00%    passed     98.77%
+ 403  leaf_402     0.00%    passed     99.53%
+ 404  leaf_403     0.00%    passed     94.37%
+ 405  leaf_404     0.00%    passed     99.63%
+ 406  leaf_405     0.00%    passed     99.02%
+ 407  leaf_406     0.00%    passed     97.75%
+ 408  leaf_407     0.00%    passed     91.04%
+ 409  leaf_408     0.00%    passed     99.97%
+ 410  leaf_409     0.00%    passed     98.42%
+ 411  leaf_410     0.00%    passed     96.72%
+ 412  leaf_411     0.00%    passed     99.10%
+ 413  leaf_412     0.00%    passed     99.17%
+ 414  leaf_413     0.00%    passed     98.05%
+ 415  leaf_414     0.00%    passed     99.23%
+ 416  leaf_415     0.00%    passed     99.71%
+ 417  leaf_416     0.00%    passed     98.37%
+ 418  leaf_417     0.00%    passed     98.49%
+ 419  leaf_418     0.00%    passed     98.95%
+ 420  leaf_419     0.00%    passed     99.17%
+ 421  leaf_420     0.00%    passed     96.88%
+ 422  leaf_421     0.00%    passed     99.81%
+ 423  leaf_422     0.00%    passed     99.86%
+ 424  leaf_423     0.00%    passed     99.42%
+ 425  leaf_424     0.00%    passed     99.56%
+ 426  leaf_425     0.00%    passed     99.77%
+ 427  leaf_426     0.00%    passed     99.84%
+ 428  leaf_427     0.00%    passed     96.94%
+ 429  leaf_428     0.00%    passed     98.49%
+ 430  leaf_429     0.00%    passed     99.54%
+ 431  leaf_430     0.00%    passed     99.95%
+ 432  leaf_431     0.00%    passed     97.28%
+ 433  leaf_432     0.00%    passed     99.60%
+ 434  leaf_433     0.00%    passed     99.08%
+ 435  leaf_434     0.00%    passed     97.76%
+ 436  leaf_435     0.00%    passed     99.27%
+ 437  leaf_436     0.00%    passed     99.57%
+ 438  leaf_437     0.00%    passed     98.66%
+ 439  leaf_438     0.00%    passed     99.97%
+ 440  leaf_439     0.00%    passed     99.99%
+ 441  leaf_440     0.00%    passed     99.43%
+ 442  leaf_441     0.00%    passed     99.86%
+ 443  leaf_442     0.00%    passed     96.98%
+ 444  leaf_443     0.00%    passed     98.78%
+ 445  leaf_444     0.00%    passed     92.34%
+ 446  leaf_445     0.00%    passed     99.59%
+ 447  leaf_446     0.00%    passed     99.07%
+ 448  leaf_447     0.00%    passed     96.93%
+ 449  leaf_448     0.00%    passed     99.90%
+ 450  leaf_449     0.00%    passed     96.62%
+ 451  leaf_450     0.00%    passed     99.34%
+ 452  leaf_451     0.00%    passed     99.98%
+ 453  leaf_452     0.00%    passed     99.90%
+ 454  leaf_453     0.00%    passed     99.65%
+ 455  leaf_454     0.00%    passed     89.90%
+ 456  leaf_455     0.00%    passed     96.40%
+ 457  leaf_456     0.00%    passed     99.88%
+ 458  leaf_457     0.00%    passed     95.91%
+ 459  leaf_458     0.00%    passed     95.87%
+ 460  leaf_459     0.00%    passed     97.06%
+ 461  leaf_460     0.00%    passed     99.86%
+ 462  leaf_461     0.00%    passed     97.82%
+ 463  leaf_462     0.00%    passed     97.28%
+ 464  leaf_463     0.00%    passed     94.63%
+ 465  leaf_464     0.00%    passed     99.77%
+ 466  leaf_465     0.00%    passed     98.77%
+ 467  leaf_466     0.00%    passed     99.85%
+ 468  leaf_467     0.00%    passed     97.41%
+ 469  leaf_468     0.00%    passed     99.92%
+ 470  leaf_469     0.00%    passed     99.84%
+ 471  leaf_470     0.00%    passed     97.20%
+ 472  leaf_471     0.00%    passed     99.98%
+ 473  leaf_472     0.00%    passed     97.26%
+ 474  leaf_473     0.00%    passed     98.92%
+ 475  leaf_474     0.00%    passed     97.07%
+ 476  leaf_475     0.00%    passed     97.11%
+ 477  leaf_476     0.00%    passed     99.89%
+ 478  leaf_477     0.00%    passed     98.83%
+ 479  leaf_478     0.00%    passed     99.80%
+ 480  leaf_479     0.00%    passed     99.62%
+ 481  leaf_480     0.00%    passed     95.31%
+ 482  leaf_481     0.00%    passed     98.33%
+ 483  leaf_482     0.00%    passed     99.68%
+ 484  leaf_483     0.00%    passed     98.23%
+ 485  leaf_484     0.00%    passed     98.72%
+ 486  leaf_485     0.00%    passed     99.48%
+ 487  leaf_486     0.00%    passed     99.38%
+ 488  leaf_487     0.00%    passed     98.92%
+ 489  leaf_488     0.00%    passed     96.61%
+ 490  leaf_489     0.00%    passed     98.67%
+ 491  leaf_490     0.00%    passed     98.54%
+ 492  leaf_491     0.00%    passed     99.95%
+ 493  leaf_492     0.00%    passed     99.53%
+ 494  leaf_493     0.00%    passed     98.82%
+ 495  leaf_494     0.00%    passed     99.76%
+ 496  leaf_495     0.00%    passed     90.16%
+ 497  leaf_496     0.00%    passed     93.58%
+ 498  leaf_497     0.00%    passed     97.55%
+ 499  leaf_498     0.00%    passed     99.83%
+ 500  leaf_499     0.00%    passed     99.95%
+ 501  leaf_500     0.00%    passed     98.06%
+ 502  leaf_501     0.00%    passed     99.52%
+ 503  leaf_502     0.00%    passed     99.32%
+ 504  leaf_503     0.00%    passed     86.16%
+ 505  leaf_504     0.00%    passed     99.54%
+ 506  leaf_505     0.00%    passed     98.30%
+ 507  leaf_506     0.00%    passed     99.79%
+ 508  leaf_507     0.00%    passed     99.36%
+ 509  leaf_508     0.00%    passed     98.03%
+ 510  leaf_509     0.00%    passed     99.33%
+ 511  leaf_510     0.00%    passed     99.08%
+ 512  leaf_511     0.00%    passed     99.80%
+ 513  leaf_512     0.00%    passed     99.59%
+ 514  leaf_513     0.00%    passed     96.40%
+ 515  leaf_514     0.00%    passed     95.09%
+ 516  leaf_515     0.00%    passed     99.10%
+ 517  leaf_516     0.00%    passed     99.37%
+ 518  leaf_517     0.00%    passed     97.67%
+ 519  leaf_518     0.00%    passed     99.83%
+ 520  leaf_519     0.00%    passed     93.64%
+ 521  leaf_520     0.00%    passed     99.62%
+ 522  leaf_521     0.00%    passed     99.74%
+ 523  leaf_522     0.00%    passed     99.14%
+ 524  leaf_523     0.00%    passed     97.91%
+ 525  leaf_524     0.00%    passed     99.17%
+ 526  leaf_525     0.00%    passed     98.60%
+ 527  leaf_526     0.00%    passed     98.13%
+ 528  leaf_527     0.00%    passed     99.24%
+ 529  leaf_528     0.00%    passed     99.84%
+ 530  leaf_529     0.00%    passed     99.55%
+ 531  leaf_530     0.00%    passed     99.48%
+ 532  leaf_531     0.00%    passed     93.85%
+ 533  leaf_532     0.00%    passed     99.61%
+ 534  leaf_533     0.00%    passed     98.55%
+ 535  leaf_534     0.00%    passed     99.54%
+ 536  leaf_535     0.00%    passed     98.61%
+ 537  leaf_536     0.00%    passed     96.66%
+ 538  leaf_537     0.00%    passed     97.38%
+ 539  leaf_538     0.00%    passed     99.89%
+ 540  leaf_539     0.00%    passed     99.19%
+ 541  leaf_540     0.00%    passed     99.95%
+ 542  leaf_541     0.00%    passed     99.51%
+ 543  leaf_542     0.00%    passed     98.29%
+ 544  leaf_543     0.00%    passed     99.95%
+ 545  leaf_544     0.00%    passed     96.47%
+ 546  leaf_545     0.00%    passed     99.54%
+ 547  leaf_546     0.00%    passed     99.15%
+ 548  leaf_547     0.00%    passed     98.95%
+ 549  leaf_548     0.00%    passed     99.96%
+ 550  leaf_549     0.00%    passed     99.55%
+ 551  leaf_550     0.00%    passed     99.94%
+ 552  leaf_551     0.00%    passed     99.57%
+ 553  leaf_552     0.00%    passed     99.66%
+ 554  leaf_553     0.00%    passed     97.69%
+ 555  leaf_554     0.00%    passed     99.71%
+ 556  leaf_555     0.00%    passed     98.59%
+ 557  leaf_556     0.00%    passed     99.12%
+ 558  leaf_557     0.00%    passed     96.34%
+ 559  leaf_558     0.00%    passed     99.42%
+ 560  leaf_559     0.00%    passed     98.00%
+ 561  leaf_560     0.00%    passed     98.04%
+ 562  leaf_561     0.00%    passed     95.38%
+ 563  leaf_562     0.00%    passed     99.78%
+ 564  leaf_563     0.00%    passed     97.42%
+ 565  leaf_564     0.00%    passed     96.44%
+ 566  leaf_565     0.00%    passed     99.21%
+ 567  leaf_566     0.00%    passed     99.95%
+ 568  leaf_567     0.00%    passed     99.47%
+ 569  leaf_568     0.00%    passed     98.91%
+ 570  leaf_569     0.00%    passed     99.82%
+ 571  leaf_570     0.00%    passed     97.91%
+ 572  leaf_571     0.00%    passed     99.40%
+ 573  leaf_572     0.00%    passed     99.45%
+ 574  leaf_573     0.00%    passed     99.88%
+ 575  leaf_574     0.00%    passed     93.17%
+ 576  leaf_575     0.00%    passed     99.97%
+ 577  leaf_576     0.00%    passed     98.78%
+ 578  leaf_577     0.00%    passed     95.60%
+ 579  leaf_578     0.00%    passed     97.44%
+ 580  leaf_579     0.00%    passed     94.81%
+ 581  leaf_580     0.00%    passed     99.60%
+ 582  leaf_581     0.00%    passed     98.24%
+ 583  leaf_582     0.00%    passed     99.99%
+ 584  leaf_583     0.00%    passed     98.77%
+ 585  leaf_584     0.00%    passed     99.94%
+ 586  leaf_585     0.00%    passed     98.69%
+ 587  leaf_586     0.00%    passed     99.68%
+ 588  leaf_587     0.00%    passed     96.06%
+ 589  leaf_588     0.00%    passed     99.80%
+ 590  leaf_589     0.00%    passed     97.99%
+ 591  leaf_590     0.00%    passed     99.77%
+ 592  leaf_591     0.00%    passed     98.13%
+ 593  leaf_592     0.00%    passed     98.56%
+ 594  leaf_593     0.00%    passed     91.22%
+ 595  leaf_594     0.00%    passed     99.91%
+ 596  leaf_595     0.00%    passed     99.62%
+ 597  leaf_596     0.00%    passed     98.32%
+ 598  leaf_597     0.00%    passed     99.74%
+ 599  leaf_598     0.00%    passed     99.92%
+ 600  leaf_599     0.00%    passed     99.87%
+ 601  leaf_600     0.00%    passed     99.14%
+ 602  leaf_601     0.00%    passed     99.48%
+ 603  leaf_602     0.00%    passed     98.44%
+ 604  leaf_603     0.00%    passed     99.07%
+ 605  leaf_604     0.00%    passed     98.95%
+ 606  leaf_605     0.00%    passed     99.03%
+ 607  leaf_606     0.00%    passed     98.06%
+ 608  leaf_607     0.00%    passed     99.93%
+ 609  leaf_608     0.00%    passed     99.99%
+ 610  leaf_609     0.00%    passed     99.76%
+ 611  leaf_610     0.00%    passed     99.57%
+ 612  leaf_611     0.00%    passed     98.86%
+ 613  leaf_612     0.00%    passed     99.12%
+ 614  leaf_613     0.00%    passed     99.85%
+ 615  leaf_614     0.00%    passed     99.43%
+ 616  leaf_615     0.00%    passed     99.85%
+ 617  leaf_616     0.00%    passed     94.36%
+ 618  leaf_617     0.00%    passed     99.11%
+ 619  leaf_618     0.00%    passed     99.29%
+ 620  leaf_619     0.00%    passed     99.99%
+ 621  leaf_620     0.00%    passed     98.61%
+ 622  leaf_621     0.00%    passed     88.15%
+ 623  leaf_622     0.00%    passed     99.94%
+ 624  leaf_623     0.00%    passed     96.09%
+ 625  leaf_624     0.00%    passed     97.36%
+ 626  leaf_625     0.00%    passed     99.84%
+ 627  leaf_626     0.00%    passed     99.42%
+ 628  leaf_627     0.00%    passed     98.04%
+ 629  leaf_628     0.00%    passed     98.07%
+ 630  leaf_629     0.00%    passed     99.60%
+ 631  leaf_630     0.00%    passed     99.38%
+ 632  leaf_631     0.00%    passed     99.88%
+ 633  leaf_632     0.00%    passed     99.26%
+ 634  leaf_633     0.00%    passed     99.68%
+ 635  leaf_634     0.00%    passed     99.84%
+ 636  leaf_635     0.00%    passed     99.83%
+ 637  leaf_636     0.00%    passed     99.11%
+ 638  leaf_637     0.00%    passed     99.80%
+ 639  leaf_638     0.00%    passed     99.59%
+ 640  leaf_639     0.00%    passed     99.37%
+ 641  leaf_640     0.00%    passed     99.86%
+ 642  leaf_641     0.00%    passed     98.44%
+ 643  leaf_642     0.00%    passed     99.73%
+ 644  leaf_643     0.00%    passed     99.86%
+ 645  leaf_644     0.00%    passed     97.31%
+ 646  leaf_645     0.00%    passed     97.43%
+ 647  leaf_646     0.00%    passed     94.41%
+ 648  leaf_647     0.00%    passed     99.17%
+ 649  leaf_648     0.00%    passed     98.26%
+ 650  leaf_649     0.00%    passed     95.49%
+ 651  leaf_650     0.00%    passed     99.99%
+ 652  leaf_651     0.00%    passed     99.12%
+ 653  leaf_652     0.00%    passed     99.30%
+ 654  leaf_653     0.00%    passed     99.69%
+ 655  leaf_654     0.00%    passed     99.43%
+ 656  leaf_655     0.00%    passed     99.47%
+ 657  leaf_656     0.00%    passed     99.89%
+ 658  leaf_657     0.00%    passed     98.39%
+ 659  leaf_658     0.00%    passed     95.86%
+ 660  leaf_659     0.00%    passed     99.34%
+ 661  leaf_660     0.00%    passed     99.89%
+ 662  leaf_661     0.00%    passed     99.58%
+ 663  leaf_662     0.00%    passed     99.82%
+ 664  leaf_663     0.00%    passed     98.13%
+ 665  leaf_664     0.00%    passed     99.87%
+ 666  leaf_665     0.00%    passed     99.41%
+ 667  leaf_666     0.00%    passed     99.25%
+ 668  leaf_667     0.00%    passed     99.36%
+ 669  leaf_668     0.00%    passed     99.72%
+ 670  leaf_669     0.00%    passed     97.70%
+ 671  leaf_670     0.00%    passed     99.83%
+ 672  leaf_671     0.00%    passed     99.96%
+ 673  leaf_672     0.00%    passed     99.74%
+ 674  leaf_673     0.00%    passed     99.15%
+ 675  leaf_674     0.00%    passed     99.90%
+ 676  leaf_675     0.00%    passed     99.63%
+ 677  leaf_676     0.00%    passed     97.28%
+ 678  leaf_677     0.00%    passed     99.90%
+ 679  leaf_678     0.00%    passed     95.92%
+ 680  leaf_679     0.00%    passed     99.94%
+ 681  leaf_680     0.00%    passed     99.92%
+ 682  leaf_681     0.00%    passed     99.12%
+ 683  leaf_682     0.00%    passed     96.57%
+ 684  leaf_683     0.00%    passed     99.73%
+ 685  leaf_684     0.00%    passed     99.35%
+ 686  leaf_685     0.00%    passed     99.37%
+ 687  leaf_686     0.00%    passed     99.93%
+ 688  leaf_687     0.00%    passed    100.00%
+ 689  leaf_688     0.00%    passed     99.79%
+ 690  leaf_689     0.00%    passed     95.25%
+ 691  leaf_690     0.00%    passed     99.58%
+ 692  leaf_691     0.00%    passed     98.45%
+ 693  leaf_692     0.00%    passed     94.57%
+ 694  leaf_693     0.00%    passed     99.84%
+ 695  leaf_694     0.00%    passed     96.86%
+ 696  leaf_695     0.00%    passed     98.86%
+ 697  leaf_696     0.00%    passed     99.56%
+ 698  leaf_697     0.00%    passed     99.19%
+ 699  leaf_698     0.00%    passed     99.84%
+ 700  leaf_699     0.00%    passed     99.13%
+ 701  leaf_700     0.00%    passed     99.90%
+ 702  leaf_701     0.00%    passed     98.51%
+ 703  leaf_702     0.00%    passed     99.57%
+ 704  leaf_703     0.00%    passed     98.66%
+ 705  leaf_704     0.00%    passed     99.52%
+ 706  leaf_705     0.00%    passed     99.54%
+ 707  leaf_706     0.00%    passed     98.45%
+ 708  leaf_707     0.00%    passed     98.89%
+ 709  leaf_708     0.00%    passed     99.63%
+ 710  leaf_709     0.00%    passed     98.44%
+ 711  leaf_710     0.00%    passed     99.65%
+ 712  leaf_711     0.00%    passed     98.80%
+ 713  leaf_712     0.00%    passed     99.63%
+ 714  leaf_713     0.00%    passed     98.39%
+ 715  leaf_714     0.00%    passed     99.31%
+ 716  leaf_715     0.00%    passed     99.33%
+ 717  leaf_716     0.00%    passed     99.61%
+ 718  leaf_717     0.00%    passed     99.77%
+ 719  leaf_718     0.00%    passed     98.24%
+ 720  leaf_719     0.00%    passed     96.25%
+ 721  leaf_720     0.00%    passed     99.82%
+ 722  leaf_721     0.00%    passed     98.57%
+ 723  leaf_722     0.00%    passed     97.25%
+ 724  leaf_723     0.00%    passed     99.76%
+ 725  leaf_724     0.00%    passed     99.29%
+ 726  leaf_725     0.00%    passed     99.72%
+ 727  leaf_726     0.00%    passed     99.33%
+ 728  leaf_727     0.00%    passed     97.63%
+ 729  leaf_728     0.00%    passed     95.27%
+ 730  leaf_729     0.00%    passed     99.56%
+ 731  leaf_730     0.00%    passed     99.94%
+ 732  leaf_731     0.00%    passed     99.73%
+ 733  leaf_732     0.00%    passed     99.23%
+ 734  leaf_733     0.00%    passed     98.37%
+ 735  leaf_734     0.00%    passed     99.05%
+ 736  leaf_735     0.00%    passed     99.12%
+ 737  leaf_736     0.00%    passed     99.85%
+ 738  leaf_737     0.00%    passed     99.61%
+ 739  leaf_738     0.00%    passed     99.26%
+ 740  leaf_739     0.00%    passed     98.62%
+ 741  leaf_740     0.00%    passed     99.72%
+ 742  leaf_741     0.00%    passed     99.99%
+ 743  leaf_742     0.00%    passed     99.83%
+ 744  leaf_743     0.00%    passed     99.67%
+ 745  leaf_744     0.00%    passed     99.69%
+ 746  leaf_745     0.00%    passed     96.22%
+ 747  leaf_746     0.00%    passed     99.99%
+ 748  leaf_747     0.00%    passed     98.45%
+ 749  leaf_748     0.00%    passed     98.54%
+ 750  leaf_749     0.00%    passed     99.81%
+ 751  leaf_750     0.00%    passed     99.93%
+ 752  leaf_751     0.00%    passed     99.24%
+ 753  leaf_752     0.00%    passed     99.25%
+ 754  leaf_753     0.00%    passed     99.76%
+ 755  leaf_754     0.00%    passed     98.92%
+ 756  leaf_755     0.00%    passed     99.11%
+ 757  leaf_756     0.00%    passed     98.39%
+ 758  leaf_757     0.00%    passed     99.36%
+ 759  leaf_758     0.00%    passed     99.52%
+ 760  leaf_759     0.00%    passed     99.27%
+ 761  leaf_760     0.00%    passed     99.59%
+ 762  leaf_761     0.00%    passed     98.00%
+ 763  leaf_762     0.00%    passed     92.25%
+ 764  leaf_763     0.00%    passed     99.91%
+ 765  leaf_764     0.00%    passed     98.55%
+ 766  leaf_765     0.00%    passed     98.92%
+ 767  leaf_766     0.00%    passed     95.85%
+ 768  leaf_767     0.00%    passed     99.49%
+ 769  leaf_768     0.00%    passed     98.54%
+ 770  leaf_769     0.00%    passed     99.29%
+ 771  leaf_770     0.00%    passed     96.29%
+ 772  leaf_771     0.00%    passed     98.58%
+ 773  leaf_772     0.00%    passed     97.78%
+ 774  leaf_773     0.00%    passed     99.11%
+ 775  leaf_774     0.00%    passed     99.40%
+ 776  leaf_775     0.00%    passed     97.39%
+ 777  leaf_776     0.00%    passed     99.58%
+ 778  leaf_777     0.00%    passed     98.89%
+ 779  leaf_778     0.00%    passed     99.82%
+ 780  leaf_779     0.00%    passed     99.72%
+ 781  leaf_780     0.00%    passed     98.60%
+ 782  leaf_781     0.00%    passed     95.95%
+ 783  leaf_782     0.00%    passed     99.99%
+ 784  leaf_783     0.00%    passed     97.02%
+ 785  leaf_784     0.00%    passed     99.43%
+ 786  leaf_785     0.00%    passed    100.00%
+ 787  leaf_786     0.00%    passed     99.85%
+ 788  leaf_787     0.00%    passed     98.94%
+ 789  leaf_788     0.00%    passed     94.03%
+ 790  leaf_789     0.00%    passed     99.55%
+ 791  leaf_790     0.00%    passed     99.52%
+ 792  leaf_791     0.00%    passed     98.97%
+ 793  leaf_792     0.00%    passed     99.95%
+ 794  leaf_793     0.00%    passed     97.07%
+ 795  leaf_794     0.00%    passed     93.97%
+ 796  leaf_795     0.00%    passed     99.83%
+ 797  leaf_796     0.00%    passed     98.59%
+ 798  leaf_797     0.00%    passed     99.96%
+ 799  leaf_798     0.00%    passed     98.26%
+ 800  leaf_799     0.00%    passed     98.01%
+ 801  leaf_800     0.00%    passed     98.33%
+ 802  leaf_801     0.00%    passed     99.48%
+ 803  leaf_802     0.00%    passed     98.76%
+ 804  leaf_803     0.00%    passed     98.32%
+ 805  leaf_804     0.00%    passed     99.63%
+ 806  leaf_805     0.00%    passed     99.84%
+ 807  leaf_806     0.00%    passed     99.80%
+ 808  leaf_807     0.00%    passed     99.78%
+ 809  leaf_808     0.00%    passed     99.84%
+ 810  leaf_809     0.00%    passed     99.10%
+ 811  leaf_810     0.00%    passed     99.65%
+ 812  leaf_811     0.00%    passed     99.82%
+ 813  leaf_812     0.00%    passed     99.18%
+ 814  leaf_813     0.00%    passed     99.02%
+ 815  leaf_814     0.00%    passed     99.09%
+ 816  leaf_815     0.00%    passed     99.60%
+ 817  leaf_816     0.00%    passed     98.17%
+ 818  leaf_817     0.00%    passed     98.89%
+ 819  leaf_818     0.00%    passed     98.36%
+ 820  leaf_819     0.00%    passed     99.28%
+ 821  leaf_820     0.00%    passed     98.21%
+ 822  leaf_821     0.00%    passed     99.72%
+ 823  leaf_822     0.00%    passed     99.81%
+ 824  leaf_823     0.00%    passed     99.69%
+ 825  leaf_824     0.00%    passed     98.92%
+ 826  leaf_825     0.00%    passed     99.18%
+ 827  leaf_826     0.00%    passed     98.10%
+ 828  leaf_827     0.00%    passed     99.61%
+ 829  leaf_828     0.00%    passed     98.98%
+ 830  leaf_829     0.00%    passed     92.16%
+ 831  leaf_830     0.00%    passed     99.88%
+ 832  leaf_831     0.00%    passed     97.53%
+ 833  leaf_832     0.00%    passed     99.56%
+ 834  leaf_833     0.00%    passed     99.07%
+ 835  leaf_834     0.00%    passed     99.92%
+ 836  leaf_835     0.00%    passed     99.03%
+ 837  leaf_836     0.00%    passed     97.69%
+ 838  leaf_837     0.00%    passed     97.11%
+ 839  leaf_838     0.00%    passed     99.93%
+ 840  leaf_839     0.00%    passed     98.29%
+ 841  leaf_840     0.00%    passed     99.92%
+ 842  leaf_841     0.00%    passed     99.46%
+ 843  leaf_842     0.00%    passed     98.58%
+ 844  leaf_843     0.00%    passed     99.74%
+ 845  leaf_844     0.00%    passed     99.26%
+ 846  leaf_845     0.00%    passed     99.60%
+ 847  leaf_846     0.00%    passed    100.00%
+ 848  leaf_847     0.00%    passed     98.59%
+ 849  leaf_848     0.00%    passed     99.01%
+ 850  leaf_849     0.00%    passed     99.01%
+ 851  leaf_850     0.00%    passed     99.07%
+ 852  leaf_851     0.00%    passed     98.80%
+ 853  leaf_852     0.00%    passed     99.79%
+ 854  leaf_853     0.00%    passed     96.94%
+ 855  leaf_854     0.00%    passed     98.11%
+ 856  leaf_855     0.00%    passed     97.72%
+ 857  leaf_856     0.00%    passed     99.82%
+ 858  leaf_857     0.00%    passed     99.17%
+ 859  leaf_858     0.00%    passed     94.88%
+ 860  leaf_859     0.00%    passed     99.55%
+ 861  leaf_860     0.00%    passed     99.40%
+ 862  leaf_861     0.00%    passed     98.40%
+ 863  leaf_862     0.00%    passed     99.92%
+ 864  leaf_863     0.00%    passed     99.88%
+ 865  leaf_864     0.00%    passed     99.81%
+ 866  leaf_865     0.00%    passed     98.46%
+ 867  leaf_866     0.00%    passed     98.05%
+ 868  leaf_867     0.00%    passed     99.99%
+ 869  leaf_868     0.00%    passed    100.00%
+ 870  leaf_869     0.00%    passed     99.37%
+ 871  leaf_870     0.00%    passed     95.69%
+ 872  leaf_871     0.00%    passed     97.00%
+ 873  leaf_872     0.00%    passed     99.21%
+ 874  leaf_873     0.00%    passed     97.56%
+ 875  leaf_874     0.00%    passed     98.28%
+ 876  leaf_875     0.00%    passed     99.61%
+ 877  leaf_876     0.00%    passed     99.47%
+ 878  leaf_877     0.00%    passed     99.60%
+ 879  leaf_878     0.00%    passed     97.21%
+ 880  leaf_879     0.00%    passed     99.38%
+ 881  leaf_880     0.00%    passed     97.17%
+ 882  leaf_881     0.00%    passed     99.47%
+ 883  leaf_882     0.00%    passed     97.79%
+ 884  leaf_883     0.00%    passed     98.71%
+ 885  leaf_884     0.00%    passed     99.35%
+ 886  leaf_885     0.00%    passed     99.96%
+ 887  leaf_886     0.00%    passed     99.74%
+ 888  leaf_887     0.00%    passed     99.85%
+ 889  leaf_888     0.00%    passed     98.75%
+ 890  leaf_889     0.00%    passed     99.84%
+ 891  leaf_890     0.00%    passed     98.06%
+ 892  leaf_891     0.00%    passed     99.68%
+ 893  leaf_892     0.00%    passed     98.47%
+ 894  leaf_893     0.00%    passed     98.12%
+ 895  leaf_894     0.00%    passed     98.51%
+ 896  leaf_895     0.00%    passed     99.03%
+ 897  leaf_896     0.00%    passed     96.42%
+ 898  leaf_897     0.00%    passed     99.85%
+ 899  leaf_898     0.00%    passed     97.14%
+ 900  leaf_899     0.00%    passed     99.81%
+ 901  leaf_900     0.00%    passed     99.53%
+ 902  leaf_901     0.00%    passed     93.31%
+ 903  leaf_902     0.00%    passed     96.27%
+ 904  leaf_903     0.00%    passed     99.37%
+ 905  leaf_904     0.00%    passed     98.63%
+ 906  leaf_905     0.00%    passed     95.98%
+ 907  leaf_906     0.00%    passed     93.01%
+ 908  leaf_907     0.00%    passed     99.91%
+ 909  leaf_908     0.00%    passed     97.96%
+ 910  leaf_909     0.00%    passed     99.05%
+ 911  leaf_910     0.00%    passed     99.06%
+ 912  leaf_911     0.00%    passed     99.73%
+ 913  leaf_912     0.00%    passed     96.72%
+ 914  leaf_913     0.00%    passed     99.93%
+ 915  leaf_914     0.00%    passed     97.80%
+ 916  leaf_915     0.00%    passed    100.00%
+ 917  leaf_916     0.00%    passed     99.50%
+ 918  leaf_917     0.00%    passed     98.33%
+ 919  leaf_918     0.00%    passed     99.64%
+ 920  leaf_919     0.00%    passed     99.67%
+ 921  leaf_920     0.00%    passed     99.99%
+ 922  leaf_921     0.00%    passed     98.19%
+ 923  leaf_922     0.00%    passed     98.58%
+ 924  leaf_923     0.00%    passed     99.25%
+ 925  leaf_924     0.00%    passed     99.27%
+ 926  leaf_925     0.00%    passed     96.38%
+ 927  leaf_926     0.00%    passed     98.20%
+ 928  leaf_927     0.00%    passed     96.91%
+ 929  leaf_928     0.00%    passed     99.66%
+ 930  leaf_929     0.00%    passed     99.32%
+ 931  leaf_930     0.00%    passed     99.13%
+ 932  leaf_931     0.00%    passed     99.17%
+ 933  leaf_932     0.00%    passed    100.00%
+ 934  leaf_933     0.00%    passed     98.94%
+ 935  leaf_934     0.00%    passed     99.96%
+ 936  leaf_935     0.00%    passed     99.06%
+ 937  leaf_936     0.00%    passed     99.76%
+ 938  leaf_937     0.00%    passed     98.92%
+ 939  leaf_938     0.00%    passed     97.26%
+ 940  leaf_939     0.00%    passed     99.31%
+ 941  leaf_940     0.00%    passed     97.94%
+ 942  leaf_941     0.00%    passed     99.36%
+ 943  leaf_942     0.00%    passed     99.91%
+ 944  leaf_943     0.00%    passed     98.84%
+ 945  leaf_944     0.00%    passed     99.73%
+ 946  leaf_945     0.00%    passed     99.82%
+ 947  leaf_946     0.00%    passed     99.77%
+ 948  leaf_947     0.00%    passed     88.14%
+ 949  leaf_948     0.00%    passed     99.45%
+ 950  leaf_949     0.00%    passed     98.59%
+ 951  leaf_950     0.00%    passed     97.58%
+ 952  leaf_951     0.00%    passed     99.63%
+ 953  leaf_952     0.00%    passed     99.19%
+ 954  leaf_953     0.00%    passed     99.45%
+ 955  leaf_954     0.00%    passed     98.87%
+ 956  leaf_955     0.00%    passed     98.06%
+ 957  leaf_956     0.00%    passed     99.35%
+ 958  leaf_957     0.00%    passed     99.04%
+ 959  leaf_958     0.00%    passed     99.95%
+ 960  leaf_959     0.00%    passed     95.93%
+ 961  leaf_960     0.00%    passed     99.56%
+ 962  leaf_961     0.00%    passed     99.62%
+ 963  leaf_962     0.00%    passed     99.74%
+ 964  leaf_963     0.00%    passed     88.64%
+ 965  leaf_964     0.00%    passed     99.66%
+ 966  leaf_965     0.00%    passed     98.91%
+ 967  leaf_966     0.00%    passed     98.69%
+ 968  leaf_967     0.00%    passed     99.16%
+ 969  leaf_968     0.00%    passed     99.81%
+ 970  leaf_969     0.00%    passed     98.58%
+ 971  leaf_970     0.00%    passed     98.54%
+ 972  leaf_971     0.00%    passed     97.34%
+ 973  leaf_972     0.00%    passed     99.83%
+ 974  leaf_973     0.00%    passed     98.10%
+ 975  leaf_974     0.00%    passed     97.86%
+ 976  leaf_975     0.00%    passed     99.95%
+ 977  leaf_976     0.00%    passed     97.45%
+ 978  leaf_977     0.00%    passed     97.66%
+ 979  leaf_978     0.00%    passed     99.09%
+ 980  leaf_979     0.00%    passed     99.05%
+ 981  leaf_980     0.00%    passed     99.84%
+ 982  leaf_981     0.00%    passed     95.14%
+ 983  leaf_982     0.00%    passed     99.95%
+ 984  leaf_983     0.00%    passed     95.08%
+ 985  leaf_984     0.00%    passed     98.61%
+ 986  leaf_985     0.00%    passed     98.50%
+ 987  leaf_986     0.00%    passed     92.18%
+ 988  leaf_987     0.00%    passed     97.59%
+ 989  leaf_988     0.00%    passed     99.75%
+ 990  leaf_989     0.00%    passed     99.86%
+ 991  leaf_990     0.00%    passed     99.64%
+ 992  leaf_991     0.00%    passed     98.67%
+ 993  leaf_992     0.00%    passed     99.60%
+ 994  leaf_993     0.00%    passed     99.40%
+ 995  leaf_994     0.00%    passed     98.77%
+ 996  leaf_995     0.00%    passed     98.96%
+ 997  leaf_996     0.00%    passed     97.54%
+ 998  leaf_997     0.00%    passed     99.94%
+ 999  leaf_998     0.00%    passed     99.46%
+1000  leaf_999     0.00%    passed     99.02%
+1001  leaf_1000    0.00%    passed     98.66%
+1002  leaf_1001    0.00%    passed     98.68%
+1003  leaf_1002    0.00%    passed     99.93%
+1004  leaf_1003    0.00%    passed     99.92%
+1005  leaf_1004    0.00%    passed     99.37%
+1006  leaf_1005    0.00%    passed     99.31%
+1007  leaf_1006    0.00%    passed     97.78%
+1008  leaf_1007    0.00%    passed     96.71%
+1009  leaf_1008    0.00%    passed     94.46%
+1010  leaf_1009    0.00%    passed     98.12%
+1011  leaf_1010    0.00%    passed     96.88%
+1012  leaf_1011    0.00%    passed     99.41%
+1013  leaf_1012    0.00%    passed     99.75%
+1014  leaf_1013    0.00%    passed     95.00%
+1015  leaf_1014    0.00%    passed     99.67%
+1016  leaf_1015    0.00%    passed     93.84%
+1017  leaf_1016    0.00%    passed     92.48%
+1018  leaf_1017    0.00%    passed     96.50%
+1019  leaf_1018    0.00%    passed     99.53%
+1020  leaf_1019    0.00%    passed     95.46%
+1021  leaf_1020    0.00%    passed     99.46%
+1022  leaf_1021    0.00%    passed     99.71%
+1023  leaf_1022    0.00%    passed     99.52%
+1024  leaf_1023    0.00%    passed     99.84%
+1025  leaf_1024    0.00%    passed     99.86%
+1026  leaf_1025    0.00%    passed     99.86%
+1027  leaf_1026    0.00%    passed     99.99%
+1028  leaf_1027    0.00%    passed     99.93%
+1029  leaf_1028    0.00%    passed     99.35%
+1030  leaf_1029    0.00%    passed     98.11%
+1031  leaf_1030    0.00%    passed     99.96%
+1032  leaf_1031    0.00%    passed     99.37%
+1033  leaf_1032    0.00%    passed     99.68%
+1034  leaf_1033    0.00%    passed     99.79%
+1035  leaf_1034    0.00%    passed     98.68%
+1036  leaf_1035    0.00%    passed     99.77%
+1037  leaf_1036    0.00%    passed     97.21%
+1038  leaf_1037    0.00%    passed     99.68%
+1039  leaf_1038    0.00%    passed     97.11%
+1040  leaf_1039    0.00%    passed     97.09%
+1041  leaf_1040    0.00%    passed     99.66%
+1042  leaf_1041    0.00%    passed     98.09%
+1043  leaf_1042    0.00%    passed     99.68%
+1044  leaf_1043    0.00%    passed     99.32%
+1045  leaf_1044    0.00%    passed     96.08%
+1046  leaf_1045    0.00%    passed     97.75%
+1047  leaf_1046    0.00%    passed     98.14%
+1048  leaf_1047    0.00%    passed     97.14%
+1049  leaf_1048    0.00%    passed     99.65%
+1050  leaf_1049    0.00%    passed     97.47%
+1051  leaf_1050    0.00%    passed     97.43%
+1052  leaf_1051    0.00%    passed     95.12%
+1053  leaf_1052    0.00%    passed     99.07%
+1054  leaf_1053    0.00%    passed     98.03%
+1055  leaf_1054    0.00%    passed     99.03%
+1056  leaf_1055    0.00%    passed     99.25%
+1057  leaf_1056    0.00%    passed     99.69%
+1058  leaf_1057    0.00%    passed     99.02%
+1059  leaf_1058    0.00%    passed     99.56%
+1060  leaf_1059    0.00%    passed     99.08%
+1061  leaf_1060    0.00%    passed     98.87%
+1062  leaf_1061    0.00%    passed     99.87%
+1063  leaf_1062    0.00%    passed     99.10%
+1064  leaf_1063    0.00%    passed     99.29%
+1065  leaf_1064    0.00%    passed     98.62%
+1066  leaf_1065    0.00%    passed     94.69%
+1067  leaf_1066    0.00%    passed     99.42%
+1068  leaf_1067    0.00%    passed     94.00%
+1069  leaf_1068    0.00%    passed     99.24%
+1070  leaf_1069    0.00%    passed     99.95%
+1071  leaf_1070    0.00%    passed     96.38%
+1072  leaf_1071    0.00%    passed     98.09%
+1073  leaf_1072    0.00%    passed     99.22%
+1074  leaf_1073    0.00%    passed     99.50%
+1075  leaf_1074    0.00%    passed     99.47%
+1076  leaf_1075    0.00%    passed     99.83%
+1077  leaf_1076    0.00%    passed     98.57%
+1078  leaf_1077    0.00%    passed     97.86%
+1079  leaf_1078    0.00%    passed     96.38%
+1080  leaf_1079    0.00%    passed     99.24%
+1081  leaf_1080    0.00%    passed     99.25%
+1082  leaf_1081    0.00%    passed     99.45%
+1083  leaf_1082    0.00%    passed     99.56%
+1084  leaf_1083    0.00%    passed     94.53%
+1085  leaf_1084    0.00%    passed     98.70%
+1086  leaf_1085    0.00%    passed     98.03%
+1087  leaf_1086    0.00%    passed     98.40%
+1088  leaf_1087    0.00%    passed     99.80%
+1089  leaf_1088    0.00%    passed     99.97%
+1090  leaf_1089    0.00%    passed     99.38%
+1091  leaf_1090    0.00%    passed     98.38%
+1092  leaf_1091    0.00%    passed     98.90%
+1093  leaf_1092    0.00%    passed     98.86%
+1094  leaf_1093    0.00%    passed     99.89%
+1095  leaf_1094    0.00%    passed     99.78%
+1096  leaf_1095    0.00%    passed     99.90%
+1097  leaf_1096    0.00%    passed     98.09%
+1098  leaf_1097    0.00%    passed     99.99%
+1099  leaf_1098    0.00%    passed     99.75%
+1100  leaf_1099    0.00%    passed     99.23%
+1101  leaf_1100    0.00%    passed     97.42%
+1102  leaf_1101    0.00%    passed     99.52%
+1103  leaf_1102    0.00%    passed     95.57%
+1104  leaf_1103    0.00%    passed     99.50%
+1105  leaf_1104    0.00%    passed     99.51%
+1106  leaf_1105    0.00%    passed     99.32%
+1107  leaf_1106    0.00%    passed     99.19%
+1108  leaf_1107    0.00%    passed     99.74%
+1109  leaf_1108    0.00%    passed     99.43%
+1110  leaf_1109    0.00%    passed     99.56%
+1111  leaf_1110    0.00%    passed     96.99%
+1112  leaf_1111    0.00%    passed     98.48%
+1113  leaf_1112    0.00%    passed     99.89%
+1114  leaf_1113    0.00%    passed     99.19%
+1115  leaf_1114    0.00%    passed     98.38%
+1116  leaf_1115    0.00%    passed    100.00%
+1117  leaf_1116    0.00%    passed     97.52%
+1118  leaf_1117    0.00%    passed     99.60%
+1119  leaf_1118    0.00%    passed     99.00%
+1120  leaf_1119    0.00%    passed     99.51%
+1121  leaf_1120    0.00%    passed     99.72%
+1122  leaf_1121    0.00%    passed     99.90%
+1123  leaf_1122    0.00%    passed     99.71%
+1124  leaf_1123    0.00%    passed     99.53%
+1125  leaf_1124    0.00%    passed     99.45%
+1126  leaf_1125    0.00%    passed     99.17%
+1127  leaf_1126    0.00%    passed     99.63%
+1128  leaf_1127    0.00%    passed     98.91%
+1129  leaf_1128    0.00%    passed     99.14%
+1130  leaf_1129    0.00%    passed     99.60%
+1131  leaf_1130    0.00%    passed     99.90%
+1132  leaf_1131    0.00%    passed     98.19%
+1133  leaf_1132    0.00%    passed     94.80%
+1134  leaf_1133    0.00%    passed     99.12%
+1135  leaf_1134    0.00%    passed     99.49%
+1136  leaf_1135    0.00%    passed     98.33%
+1137  leaf_1136    0.00%    passed     99.01%
+1138  leaf_1137    0.00%    passed     99.73%
+1139  leaf_1138    0.00%    passed     99.53%
+1140  leaf_1139    0.00%    passed     99.95%
+1141  leaf_1140    0.00%    passed     99.93%
+1142  leaf_1141    0.00%    passed     99.58%
+1143  leaf_1142    0.00%    passed     99.00%
+1144  leaf_1143    0.00%    passed     99.94%
+1145  leaf_1144    0.00%    passed     99.88%
+1146  leaf_1145    0.00%    passed     97.01%
+1147  leaf_1146    0.00%    passed     99.64%
+1148  leaf_1147    0.00%    passed     99.20%
+1149  leaf_1148    0.00%    passed     99.68%
+1150  leaf_1149    0.00%    passed     97.79%
+1151  leaf_1150    0.00%    passed     97.43%
+1152  leaf_1151    0.00%    passed     97.42%
+1153  leaf_1152    0.00%    passed     99.74%
+1154  leaf_1153    0.00%    passed     97.38%
+1155  leaf_1154    0.00%    passed     98.14%
+1156  leaf_1155    0.00%    passed     98.38%
+1157  leaf_1156    0.00%    passed     98.73%
+1158  leaf_1157    0.00%    passed     99.57%
+1159  leaf_1158    0.00%    passed     99.83%
+1160  leaf_1159    0.00%    passed     99.48%
+1161  leaf_1160    0.00%    passed     99.98%
+1162  leaf_1161    0.00%    passed     99.73%
+1163  leaf_1162    0.00%    passed     97.36%
+1164  leaf_1163    0.00%    passed     99.78%
+1165  leaf_1164    0.00%    passed     97.89%
+1166  leaf_1165    0.00%    passed     99.85%
+1167  leaf_1166    0.00%    passed     99.60%
+1168  leaf_1167    0.00%    passed     98.59%
+1169  leaf_1168    0.00%    passed     99.59%
+1170  leaf_1169    0.00%    passed     98.98%
+1171  leaf_1170    0.00%    passed     98.68%
+1172  leaf_1171    0.00%    passed     99.68%
+1173  leaf_1172    0.00%    passed     98.86%
+1174  leaf_1173    0.00%    passed     99.98%
+1175  leaf_1174    0.00%    passed     98.22%
+1176  leaf_1175    0.00%    passed     98.87%
+1177  leaf_1176    0.00%    passed     99.76%
+1178  leaf_1177    0.00%    passed     99.89%
+1179  leaf_1178    0.00%    passed     99.75%
+1180  leaf_1179    0.00%    passed     99.98%
+1181  leaf_1180    0.00%    passed     99.98%
+1182  leaf_1181    0.00%    passed     99.97%
+1183  leaf_1182    0.00%    passed     96.64%
+1184  leaf_1183    0.00%    passed     99.92%
+1185  leaf_1184    0.00%    passed     97.76%
+1186  leaf_1185    0.00%    passed     99.73%
+1187  leaf_1186    0.00%    passed     99.67%
+1188  leaf_1187    0.00%    passed     99.76%
+1189  leaf_1188    0.00%    passed     99.89%
+1190  leaf_1189    0.00%    passed     96.13%
+1191  leaf_1190    0.00%    passed     98.56%
+1192  leaf_1191    0.00%    passed     98.82%
+1193  leaf_1192    0.00%    passed     99.61%
+1194  leaf_1193    0.00%    passed     98.70%
+1195  leaf_1194    0.00%    passed     99.39%
+1196  leaf_1195    0.00%    passed     98.34%
+1197  leaf_1196    0.00%    passed     99.90%
+1198  leaf_1197    0.00%    passed     97.80%
+1199  leaf_1198    0.00%    passed     92.58%
+1200  leaf_1199    0.00%    passed     99.06%
+1201  leaf_1200    0.00%    passed     96.63%
+1202  leaf_1201    0.00%    passed     98.02%
+1203  leaf_1202    0.00%    passed     99.48%
+1204  leaf_1203    0.00%    passed     99.34%
+1205  leaf_1204    0.00%    passed     99.64%
+1206  leaf_1205    0.00%    passed     98.85%
+1207  leaf_1206    0.00%    passed     99.93%
+1208  leaf_1207    0.00%    passed     98.97%
+1209  leaf_1208    0.00%    passed     97.00%
+1210  leaf_1209    0.00%    passed     97.77%
+1211  leaf_1210    0.00%    passed     98.19%
+1212  leaf_1211    0.00%    passed     98.65%
+1213  leaf_1212    0.00%    passed     99.77%
+1214  leaf_1213    0.00%    passed     99.73%
+1215  leaf_1214    0.00%    passed     99.67%
+1216  leaf_1215    0.00%    passed     99.44%
+1217  leaf_1216    0.00%    passed     99.24%
+1218  leaf_1217    0.00%    passed     98.67%
+1219  leaf_1218    0.00%    passed     99.37%
+1220  leaf_1219    0.00%    passed     97.76%
+1221  leaf_1220    0.00%    passed     99.80%
+1222  leaf_1221    0.00%    passed     98.26%
+1223  leaf_1222    0.00%    passed     98.87%
+1224  leaf_1223    0.00%    passed     99.74%
+1225  leaf_1224    0.00%    passed     99.88%
+1226  leaf_1225    0.00%    passed     99.77%
+1227  leaf_1226    0.00%    passed     99.93%
+1228  leaf_1227    0.00%    passed     99.90%
+1229  leaf_1228    0.00%    passed     97.31%
+1230  leaf_1229    0.00%    passed     99.99%
+1231  leaf_1230    0.00%    passed     99.52%
+1232  leaf_1231    0.00%    passed     99.84%
+1233  leaf_1232    0.00%    passed     99.35%
+1234  leaf_1233    0.00%    passed     99.38%
+1235  leaf_1234    0.00%    passed     98.96%
+1236  leaf_1235    0.00%    passed     99.75%
+1237  leaf_1236    0.00%    passed     99.37%
+1238  leaf_1237    0.00%    passed     98.27%
+1239  leaf_1238    0.00%    passed     98.88%
+1240  leaf_1239    0.00%    passed     99.73%
+1241  leaf_1240    0.00%    passed     99.89%
+1242  leaf_1241    0.00%    passed     96.18%
+1243  leaf_1242    0.00%    passed     99.66%
+1244  leaf_1243    0.00%    passed     99.95%
+1245  leaf_1244    0.00%    passed     98.37%
+1246  leaf_1245    0.00%    passed     99.97%
+1247  leaf_1246    0.00%    passed     97.38%
+1248  leaf_1247    0.00%    passed     98.91%
+1249  leaf_1248    0.00%    passed     99.74%
+1250  leaf_1249    0.00%    passed     97.77%
+1251  leaf_1250    0.00%    passed     97.53%
+1252  leaf_1251    0.00%    passed     99.10%
+1253  leaf_1252    0.00%    passed     99.04%
+1254  leaf_1253    0.00%    passed     96.67%
+1255  leaf_1254    0.00%    passed     98.50%
+1256  leaf_1255    0.00%    passed     99.76%
+1257  leaf_1256    0.00%    passed     97.22%
+1258  leaf_1257    0.00%    passed     99.53%
+1259  leaf_1258    0.00%    passed     99.95%
+1260  leaf_1259    0.00%    passed     99.65%
+1261  leaf_1260    0.00%    passed     99.37%
+1262  leaf_1261    0.00%    passed     99.49%
+1263  leaf_1262    0.00%    passed     99.20%
+1264  leaf_1263    0.00%    passed     98.61%
+1265  leaf_1264    0.00%    passed     99.03%
+1266  leaf_1265    0.00%    passed     99.01%
+1267  leaf_1266    0.00%    passed     99.42%
+1268  leaf_1267    0.00%    passed     97.32%
+1269  leaf_1268    0.00%    passed     99.84%
+1270  leaf_1269    0.00%    passed     99.76%
+1271  leaf_1270    0.00%    passed     98.91%
+1272  leaf_1271    0.00%    passed     97.77%
+1273  leaf_1272    0.00%    passed     99.51%
+1274  leaf_1273    0.00%    passed     99.80%
+1275  leaf_1274    0.00%    passed     99.99%
+1276  leaf_1275    0.00%    passed     99.09%
+1277  leaf_1276    0.00%    passed     98.39%
+1278  leaf_1277    0.00%    passed     98.95%
+1279  leaf_1278    0.00%    passed     98.92%
+1280  leaf_1279    0.00%    passed     99.72%
+1281  leaf_1280    0.00%    passed     99.34%
+1282  leaf_1281    0.00%    passed     99.75%
+1283  leaf_1282    0.00%    passed     99.90%
+1284  leaf_1283    0.00%    passed     94.48%
+1285  leaf_1284    0.00%    passed    100.00%
+1286  leaf_1285    0.00%    passed     99.51%
+1287  leaf_1286    0.00%    passed     99.31%
+1288  leaf_1287    0.00%    passed     99.74%
+1289  leaf_1288    0.00%    passed     98.49%
+1290  leaf_1289    0.00%    passed     97.47%
+1291  leaf_1290    0.00%    passed     99.55%
+1292  leaf_1291    0.00%    passed     98.68%
+1293  leaf_1292    0.00%    passed     98.18%
+1294  leaf_1293    0.00%    passed     98.83%
+1295  leaf_1294    0.00%    passed     99.98%
+1296  leaf_1295    0.00%    passed     99.85%
+1297  leaf_1296    0.00%    passed     98.27%
+1298  leaf_1297    0.00%    passed     98.52%
+1299  leaf_1298    0.00%    passed     99.32%
+1300  leaf_1299    0.00%    passed     97.08%
+1301  leaf_1300    0.00%    passed     99.29%
+1302  leaf_1301    0.00%    passed     99.75%
+1303  leaf_1302    0.00%    passed     99.62%
+1304  leaf_1303    0.00%    passed     99.80%
+1305  leaf_1304    0.00%    passed     98.93%
+1306  leaf_1305    0.00%    passed     99.78%
+1307  leaf_1306    0.00%    passed     99.71%
+1308  leaf_1307    0.00%    passed     99.98%
+1309  leaf_1308    0.00%    passed     99.52%
+1310  leaf_1309    0.00%    passed     98.23%
+1311  leaf_1310    0.00%    passed     98.28%
+1312  leaf_1311    0.00%    passed     99.83%
+1313  leaf_1312    0.00%    passed     98.67%
+1314  leaf_1313    0.00%    passed     96.28%
+1315  leaf_1314    0.00%    passed     99.42%
+1316  leaf_1315    0.00%    passed     99.96%
+1317  leaf_1316    0.00%    passed     99.78%
+1318  leaf_1317    0.00%    passed     99.52%
+1319  leaf_1318    0.00%    passed     99.08%
+1320  leaf_1319    0.00%    passed     99.92%
+1321  leaf_1320    0.00%    passed     99.37%
+1322  leaf_1321    0.00%    passed     99.22%
+1323  leaf_1322    0.00%    passed     98.38%
+1324  leaf_1323    0.00%    passed     98.73%
+1325  leaf_1324    0.00%    passed     99.68%
+1326  leaf_1325    0.00%    passed     97.68%
+1327  leaf_1326    0.00%    passed     97.86%
+1328  leaf_1327    0.00%    passed     99.78%
+1329  leaf_1328    0.00%    passed     99.97%
+1330  leaf_1329    0.00%    passed     87.71%
+1331  leaf_1330    0.00%    passed     99.92%
+1332  leaf_1331    0.00%    passed     99.91%
+1333  leaf_1332    0.00%    passed     97.28%
+1334  leaf_1333    0.00%    passed     99.89%
+1335  leaf_1334    0.00%    passed     99.76%
+1336  leaf_1335    0.00%    passed     97.19%
+1337  leaf_1336    0.00%    passed     99.41%
+1338  leaf_1337    0.00%    passed     98.84%
+1339  leaf_1338    0.00%    passed     99.71%
+1340  leaf_1339    0.00%    passed     98.82%
+1341  leaf_1340    0.00%    passed     99.86%
+1342  leaf_1341    0.00%    passed     99.40%
+1343  leaf_1342    0.00%    passed     99.49%
+1344  leaf_1343    0.00%    passed     99.80%
+1345  leaf_1344    0.00%    passed     99.34%
+1346  leaf_1345    0.00%    passed     99.70%
+1347  leaf_1346    0.00%    passed     99.60%
+1348  leaf_1347    0.00%    passed     99.63%
+1349  leaf_1348    0.00%    passed     99.70%
+1350  leaf_1349    0.00%    passed     97.81%
+1351  leaf_1350    0.00%    passed     98.68%
+1352  leaf_1351    0.00%    passed     99.99%
+1353  leaf_1352    0.00%    passed     99.81%
+1354  leaf_1353    0.00%    passed     98.58%
+1355  leaf_1354    0.00%    passed     98.77%
+1356  leaf_1355    0.00%    passed     99.61%
+1357  leaf_1356    0.00%    passed     99.59%
+1358  leaf_1357    0.00%    passed     98.93%
+1359  leaf_1358    0.00%    passed     97.11%
+1360  leaf_1359    0.00%    passed     99.36%
+1361  leaf_1360    0.00%    passed     98.32%
+1362  leaf_1361    0.00%    passed     98.96%
+1363  leaf_1362    0.00%    passed     99.33%
+1364  leaf_1363    0.00%    passed     99.98%
+1365  leaf_1364    0.00%    passed     99.72%
+1366  leaf_1365    0.00%    passed     99.11%
+1367  leaf_1366    0.00%    passed     99.71%
+1368  leaf_1367    0.00%    passed     99.83%
+1369  leaf_1368    0.00%    passed     99.69%
+1370  leaf_1369    0.00%    passed     99.39%
+1371  leaf_1370    0.00%    passed     98.29%
+1372  leaf_1371    0.00%    passed     99.60%
+1373  leaf_1372    0.00%    passed     97.45%
+1374  leaf_1373    0.00%    passed     99.88%
+1375  leaf_1374    0.00%    passed     99.83%
+1376  leaf_1375    0.00%    passed     98.55%
+1377  leaf_1376    0.00%    passed     97.70%
+1378  leaf_1377    0.00%    passed     98.95%
+1379  leaf_1378    0.00%    passed     99.99%
+1380  leaf_1379    0.00%    passed     99.64%
+1381  leaf_1380    0.00%    passed     99.71%
+1382  leaf_1381    0.00%    passed     99.90%
+1383  leaf_1382    0.00%    passed     97.43%
+1384  leaf_1383    0.00%    passed     96.82%
+1385  leaf_1384    0.00%    passed     98.78%
+1386  leaf_1385    0.00%    passed     99.52%
+1387  leaf_1386    0.00%    passed     94.19%
+1388  leaf_1387    0.00%    passed     97.38%
+1389  leaf_1388    0.00%    passed     99.87%
+1390  leaf_1389    0.00%    passed     97.37%
+1391  leaf_1390    0.00%    passed     99.92%
+1392  leaf_1391    0.00%    passed     98.88%
+1393  leaf_1392    0.00%    passed     98.72%
+1394  leaf_1393    0.00%    passed     99.89%
+1395  leaf_1394    0.00%    passed     99.95%
+1396  leaf_1395    0.00%    passed     98.14%
+1397  leaf_1396    0.00%    passed     97.78%
+1398  leaf_1397    0.00%    passed     99.87%
+1399  leaf_1398    0.00%    passed     99.17%
+1400  leaf_1399    0.00%    passed     99.77%
+1401  leaf_1400    0.00%    passed     97.87%
+1402  leaf_1401    0.00%    passed     98.78%
+1403  leaf_1402    0.00%    passed     99.83%
+1404  leaf_1403    0.00%    passed     98.51%
+1405  leaf_1404    0.00%    passed     97.98%
+1406  leaf_1405    0.00%    passed     99.78%
+1407  leaf_1406    0.00%    passed     99.19%
+1408  leaf_1407    0.00%    passed     99.56%
+1409  leaf_1408    0.00%    passed     99.24%
+1410  leaf_1409    0.00%    passed     99.28%
+1411  leaf_1410    0.00%    passed     99.50%
+1412  leaf_1411    0.00%    passed     98.64%
+1413  leaf_1412    0.00%    passed     99.36%
+1414  leaf_1413    0.00%    passed     98.91%
+1415  leaf_1414    0.00%    passed     96.75%
+1416  leaf_1415    0.00%    passed     99.78%
+1417  leaf_1416    0.00%    passed     99.72%
+1418  leaf_1417    0.00%    passed    100.00%
+1419  leaf_1418    0.00%    passed     93.54%
+1420  leaf_1419    0.00%    passed     99.77%
+1421  leaf_1420    0.00%    passed     99.47%
+1422  leaf_1421    0.00%    passed     99.80%
+1423  leaf_1422    0.00%    passed     97.83%
+1424  leaf_1423    0.00%    passed     98.82%
+1425  leaf_1424    0.00%    passed     99.95%
+1426  leaf_1425    0.00%    passed     99.53%
+1427  leaf_1426    0.00%    passed     99.18%
+1428  leaf_1427    0.00%    passed     98.78%
+1429  leaf_1428    0.00%    passed     97.48%
+1430  leaf_1429    0.00%    passed     99.22%
+1431  leaf_1430    0.00%    passed     98.96%
+1432  leaf_1431    0.00%    passed     98.33%
+1433  leaf_1432    0.00%    passed     99.65%
+1434  leaf_1433    0.00%    passed     99.62%
+1435  leaf_1434    0.00%    passed     97.49%
+1436  leaf_1435    0.00%    passed     99.70%
+1437  leaf_1436    0.00%    passed     99.32%
+1438  leaf_1437    0.00%    passed     99.96%
+1439  leaf_1438    0.00%    passed     97.52%
+1440  leaf_1439    0.00%    passed     98.50%
+1441  leaf_1440    0.00%    passed     99.40%
+1442  leaf_1441    0.00%    passed     99.95%
+1443  leaf_1442    0.00%    passed     98.71%
+1444  leaf_1443    0.00%    passed     98.15%
+1445  leaf_1444    0.00%    passed     99.09%
+1446  leaf_1445    0.00%    passed     98.04%
+1447  leaf_1446    0.00%    passed     99.07%
+1448  leaf_1447    0.00%    passed     98.83%
+1449  leaf_1448    0.00%    passed     99.92%
+1450  leaf_1449    0.00%    passed     99.53%
+1451  leaf_1450    0.00%    passed     99.61%
+1452  leaf_1451    0.00%    passed     99.25%
+1453  leaf_1452    0.00%    passed     99.49%
+1454  leaf_1453    0.00%    passed     99.37%
+1455  leaf_1454    0.00%    passed     99.84%
+1456  leaf_1455    0.00%    passed     98.11%
+1457  leaf_1456    0.00%    passed     99.95%
+1458  leaf_1457    0.00%    passed     99.41%
+1459  leaf_1458    0.00%    passed     95.25%
+1460  leaf_1459    0.00%    passed     99.79%
+1461  leaf_1460    0.00%    passed     98.72%
+1462  leaf_1461    0.00%    passed     99.76%
+1463  leaf_1462    0.00%    passed     98.69%
+1464  leaf_1463    0.00%    passed     99.76%
+1465  leaf_1464    0.00%    passed     99.24%
+1466  leaf_1465    0.00%    passed     99.64%
+1467  leaf_1466    0.00%    passed     99.21%
+1468  leaf_1467    0.00%    passed     99.60%
+1469  leaf_1468    0.00%    passed     98.35%
+1470  leaf_1469    0.00%    passed     99.97%
+1471  leaf_1470    0.00%    passed     96.50%
+1472  leaf_1471    0.00%    passed     99.68%
+1473  leaf_1472    0.00%    passed     99.51%
+1474  leaf_1473    0.00%    passed     98.16%
+1475  leaf_1474    0.00%    passed     98.65%
+1476  leaf_1475    0.00%    passed     99.19%
+1477  leaf_1476    0.00%    passed     97.20%
+1478  leaf_1477    0.00%    passed     99.21%
+1479  leaf_1478    0.00%    passed     98.83%
+1480  leaf_1479    0.00%    passed     97.81%
+1481  leaf_1480    0.00%    passed     99.34%
+1482  leaf_1481    0.00%    passed     99.83%
+1483  leaf_1482    0.00%    passed     98.64%
+1484  leaf_1483    0.00%    passed     95.32%
+1485  leaf_1484    0.00%    passed     94.05%
+1486  leaf_1485    0.00%    passed     99.53%
+1487  leaf_1486    0.00%    passed     96.32%
+1488  leaf_1487    0.00%    passed     97.95%
+1489  leaf_1488    0.00%    passed     98.19%
+1490  leaf_1489    0.00%    passed     99.85%
+1491  leaf_1490    0.00%    passed     97.83%
+1492  leaf_1491    0.00%    passed     99.39%
+1493  leaf_1492    0.00%    passed     99.66%
+1494  leaf_1493    0.00%    passed     99.51%
+1495  leaf_1494    0.00%    passed     99.75%
+1496  leaf_1495    0.00%    passed     98.91%
+1497  leaf_1496    0.00%    passed     99.89%
+1498  leaf_1497    0.00%    passed     97.47%
+1499  leaf_1498    0.00%    passed     98.07%
+1500  leaf_1499    0.00%    passed     99.81%
+1501  leaf_1500    0.00%    passed     97.51%
+1502  leaf_1501    0.00%    passed     99.80%
+1503  leaf_1502    0.00%    passed     99.55%
+1504  leaf_1503    0.00%    passed     98.86%
+1505  leaf_1504    0.00%    passed     99.62%
+1506  leaf_1505    0.00%    passed     99.12%
+1507  leaf_1506    0.00%    passed     99.92%
+1508  leaf_1507    0.00%    passed     99.95%
+1509  leaf_1508    0.00%    passed     96.08%
+1510  leaf_1509    0.00%    passed     99.61%
+1511  leaf_1510    0.00%    passed     99.82%
+1512  leaf_1511    0.00%    passed     99.69%
+1513  leaf_1512    0.00%    passed     99.04%
+1514  leaf_1513    0.00%    passed     98.29%
+1515  leaf_1514    0.00%    passed     99.92%
+1516  leaf_1515    0.00%    passed     98.91%
+1517  leaf_1516    0.00%    passed     98.66%
+1518  leaf_1517    0.00%    passed     99.94%
+1519  leaf_1518    0.00%    passed     99.19%
+1520  leaf_1519    0.00%    passed     97.72%
+1521  leaf_1520    0.00%    passed     97.22%
+1522  leaf_1521    0.00%    passed     98.94%
+1523  leaf_1522    0.00%    passed     99.97%
+1524  leaf_1523    0.00%    passed     98.14%
+1525  leaf_1524    0.00%    passed     95.56%
+1526  leaf_1525    0.00%    passed     98.83%
+1527  leaf_1526    0.00%    passed     98.16%
+1528  leaf_1527    0.00%    passed     98.77%
+1529  leaf_1528    0.00%    passed     99.53%
+1530  leaf_1529    0.00%    passed     99.71%
+1531  leaf_1530    0.00%    passed     99.08%
+1532  leaf_1531    0.00%    passed     95.07%
+1533  leaf_1532    0.00%    passed     99.91%
+1534  leaf_1533    0.00%    passed     99.50%
+1535  leaf_1534    0.00%    passed     99.05%
+1536  leaf_1535    0.00%    passed     99.93%
+1537  leaf_1536    0.00%    passed    100.00%
+1538  leaf_1537    0.00%    passed     97.75%
+1539  leaf_1538    0.00%    passed     99.69%
+1540  leaf_1539    0.00%    passed     98.51%
+1541  leaf_1540    0.00%    passed     99.80%
+1542  leaf_1541    0.00%    passed     99.51%
+1543  leaf_1542    0.00%    passed     99.52%
+1544  leaf_1543    0.00%    passed     98.31%
+1545  leaf_1544    0.00%    passed     99.66%
+1546  leaf_1545    0.00%    passed     99.48%
+1547  leaf_1546    0.00%    passed     99.76%
+1548  leaf_1547    0.00%    passed     98.83%
+1549  leaf_1548    0.00%    passed     99.07%
+1550  leaf_1549    0.00%    passed     95.71%
+1551  leaf_1550    0.00%    passed     97.70%
+1552  leaf_1551    0.00%    passed     99.26%
+1553  leaf_1552    0.00%    passed     99.97%
+1554  leaf_1553    0.00%    passed     96.07%
+1555  leaf_1554    0.00%    passed     98.16%
+1556  leaf_1555    0.00%    passed     98.06%
+1557  leaf_1556    0.00%    passed     99.40%
+1558  leaf_1557    0.00%    passed     99.37%
+1559  leaf_1558    0.00%    passed     99.78%
+1560  leaf_1559    0.00%    passed     99.32%
+1561  leaf_1560    0.00%    passed     99.67%
+1562  leaf_1561    0.00%    passed     99.67%
+1563  leaf_1562    0.00%    passed     99.60%
+1564  leaf_1563    0.00%    passed     99.53%
+1565  leaf_1564    0.00%    passed     98.60%
+1566  leaf_1565    0.00%    passed     99.70%
+1567  leaf_1566    0.00%    passed     98.92%
+1568  leaf_1567    0.00%    passed     98.29%
+1569  leaf_1568    0.00%    passed     99.23%
+1570  leaf_1569    0.00%    passed     98.61%
+1571  leaf_1570    0.00%    passed     99.04%
+1572  leaf_1571    0.00%    passed     97.25%
+1573  leaf_1572    0.00%    passed     99.51%
+1574  leaf_1573    0.00%    passed     98.95%
+1575  leaf_1574    0.00%    passed     97.88%
+1576  leaf_1575    0.00%    passed     98.45%
+1577  leaf_1576    0.00%    passed     97.95%
+1578  leaf_1577    0.00%    passed     98.54%
+1579  leaf_1578    0.00%    passed     99.89%
+1580  leaf_1579    0.00%    passed     99.16%
+1581  leaf_1580    0.00%    passed     99.55%
+1582  leaf_1581    0.00%    passed     99.77%
+1583  leaf_1582    0.00%    passed     98.79%
+1584  leaf_1583    0.00%    passed     99.32%
+1585  leaf_1584    0.00%    passed     99.19%
+1586  leaf_1585    0.00%    passed     99.91%
+1587  leaf_1586    0.00%    passed     99.84%
+1588  leaf_1587    0.00%    passed     99.36%
+1589  leaf_1588    0.00%    passed     98.74%
+1590  leaf_1589    0.00%    passed     99.75%
+1591  leaf_1590    0.00%    passed     98.14%
+1592  leaf_1591    0.00%    passed     97.85%
+1593  leaf_1592    0.00%    passed     99.27%
+1594  leaf_1593    0.00%    passed    100.00%
+1595  leaf_1594    0.00%    passed     99.70%
+1596  leaf_1595    0.00%    passed     99.80%
+1597  leaf_1596    0.00%    passed     95.06%
+1598  leaf_1597    0.00%    passed     97.77%
+1599  leaf_1598    0.00%    passed     98.69%
+1600  leaf_1599    0.00%    passed     99.90%
+1601  leaf_1600    0.00%    passed     97.09%
+1602  leaf_1601    0.00%    passed     99.80%
+1603  leaf_1602    0.00%    passed     98.93%
+1604  leaf_1603    0.00%    passed     98.65%
+1605  leaf_1604    0.00%    passed     99.59%
+1606  leaf_1605    0.00%    passed     99.59%
+1607  leaf_1606    0.00%    passed     99.92%
+1608  leaf_1607    0.00%    passed     93.91%
+1609  leaf_1608    0.00%    passed     99.67%
+1610  leaf_1609    0.00%    passed     99.71%
+1611  leaf_1610    0.00%    passed     98.32%
+1612  leaf_1611    0.00%    passed     98.89%
+1613  leaf_1612    0.00%    passed    100.00%
+1614  leaf_1613    0.00%    passed     96.98%
+1615  leaf_1614    0.00%    passed     98.51%
+1616  leaf_1615    0.00%    passed     96.00%
+1617  leaf_1616    0.00%    passed     98.82%
+1618  leaf_1617    0.00%    passed     99.69%
+1619  leaf_1618    0.00%    passed     99.69%
+1620  leaf_1619    0.00%    passed     99.56%
+1621  leaf_1620    0.00%    passed     99.49%
+1622  leaf_1621    0.00%    passed     99.21%
+1623  leaf_1622    0.00%    passed     98.40%
+1624  leaf_1623    0.00%    passed     98.87%
+1625  leaf_1624    0.00%    passed     99.90%
+1626  leaf_1625    0.00%    passed     98.78%
+1627  leaf_1626    0.00%    passed     99.22%
+1628  leaf_1627    0.00%    passed    100.00%
+1629  leaf_1628    0.00%    passed     95.09%
+1630  leaf_1629    0.00%    passed     99.41%
+1631  leaf_1630    0.00%    passed     99.95%
+1632  leaf_1631    0.00%    passed     99.04%
+1633  leaf_1632    0.00%    passed     98.33%
+1634  leaf_1633    0.00%    passed     96.20%
+1635  leaf_1634    0.00%    passed     99.03%
+1636  leaf_1635    0.00%    passed     99.95%
+1637  leaf_1636    0.00%    passed     95.31%
+1638  leaf_1637    0.00%    passed     99.16%
+1639  leaf_1638    0.00%    passed     99.69%
+1640  leaf_1639    0.00%    passed     98.76%
+1641  leaf_1640    0.00%    passed     99.96%
+1642  leaf_1641    0.00%    passed     99.95%
+1643  leaf_1642    0.00%    passed     99.22%
+1644  leaf_1643    0.00%    passed     99.12%
+1645  leaf_1644    0.00%    passed     98.25%
+1646  leaf_1645    0.00%    passed     99.44%
+1647  leaf_1646    0.00%    passed     99.29%
+1648  leaf_1647    0.00%    passed     99.99%
+1649  leaf_1648    0.00%    passed     99.66%
+1650  leaf_1649    0.00%    passed     99.99%
+1651  leaf_1650    0.00%    passed     99.87%
+1652  leaf_1651    0.00%    passed     98.32%
+1653  leaf_1652    0.00%    passed     99.96%
+1654  leaf_1653    0.00%    passed     99.85%
+1655  leaf_1654    0.00%    passed     99.77%
+1656  leaf_1655    0.00%    passed     99.66%
+1657  leaf_1656    0.00%    passed     98.95%
+1658  leaf_1657    0.00%    passed     97.77%
+1659  leaf_1658    0.00%    passed     99.15%
+1660  leaf_1659    0.00%    passed     96.79%
+1661  leaf_1660    0.00%    passed     99.46%
+1662  leaf_1661    0.00%    passed     99.60%
+1663  leaf_1662    0.00%    passed     97.17%
+1664  leaf_1663    0.00%    passed     99.45%
+1665  leaf_1664    0.00%    passed     98.98%
+1666  leaf_1665    0.00%    passed     93.32%
+1667  leaf_1666    0.00%    passed     99.14%
+1668  leaf_1667    0.00%    passed     99.55%
+1669  leaf_1668    0.00%    passed     96.20%
+1670  leaf_1669    0.00%    passed     98.53%
+1671  leaf_1670    0.00%    passed     98.66%
+1672  leaf_1671    0.00%    passed     99.69%
+1673  leaf_1672    0.00%    passed     99.30%
+1674  leaf_1673    0.00%    passed     99.95%
+1675  leaf_1674    0.00%    passed     99.66%
+1676  leaf_1675    0.00%    passed     98.86%
+1677  leaf_1676    0.00%    passed     99.51%
+1678  leaf_1677    0.00%    passed     99.86%
+1679  leaf_1678    0.00%    passed     99.12%
+1680  leaf_1679    0.00%    passed     99.70%
+1681  leaf_1680    0.00%    passed     99.88%
+1682  leaf_1681    0.00%    passed     99.29%
+1683  leaf_1682    0.00%    passed     99.90%
+1684  leaf_1683    0.00%    passed     99.70%
+1685  leaf_1684    0.00%    passed     99.93%
+1686  leaf_1685    0.00%    passed     99.72%
+1687  leaf_1686    0.00%    passed     99.67%
+1688  leaf_1687    0.00%    passed     98.98%
+1689  leaf_1688    0.00%    passed     99.14%
+1690  leaf_1689    0.00%    passed     99.92%
+1691  leaf_1690    0.00%    passed     99.77%
+1692  leaf_1691    0.00%    passed     96.06%
+1693  leaf_1692    0.00%    passed     99.54%
+1694  leaf_1693    0.00%    passed     98.56%
+1695  leaf_1694    0.00%    passed     99.65%
+1696  leaf_1695    0.00%    passed     99.39%
+1697  leaf_1696    0.00%    passed     99.00%
+1698  leaf_1697    0.00%    passed     99.75%
+1699  leaf_1698    0.00%    passed     96.20%
+1700  leaf_1699    0.00%    passed     99.30%
+1701  leaf_1700    0.00%    passed     96.56%
+1702  leaf_1701    0.00%    passed     99.17%
+1703  leaf_1702    0.00%    passed     99.48%
+1704  leaf_1703    0.00%    passed     98.14%
+1705  leaf_1704    0.00%    passed     98.79%
+1706  leaf_1705    0.00%    passed     99.51%
+1707  leaf_1706    0.00%    passed     96.80%
+1708  leaf_1707    0.00%    passed     98.91%
+1709  leaf_1708    0.00%    passed     98.85%
+1710  leaf_1709    0.00%    passed     99.48%
+1711  leaf_1710    0.00%    passed     99.69%
+1712  leaf_1711    0.00%    passed     98.85%
+1713  leaf_1712    0.00%    passed     96.27%
+1714  leaf_1713    0.00%    passed     99.36%
+1715  leaf_1714    0.00%    passed     99.07%
+1716  leaf_1715    0.00%    passed     99.34%
+1717  leaf_1716    0.00%    passed     99.66%
+1718  leaf_1717    0.00%    passed     99.97%
+1719  leaf_1718    0.00%    passed     99.71%
+1720  leaf_1719    0.00%    passed     99.99%
+1721  leaf_1720    0.00%    passed     97.94%
+1722  leaf_1721    0.00%    passed     99.70%
+1723  leaf_1722    0.00%    passed     99.46%
+1724  leaf_1723    0.00%    passed     98.27%
+1725  leaf_1724    0.00%    passed     99.56%
+1726  leaf_1725    0.00%    passed     99.61%
+1727  leaf_1726    0.00%    passed     99.43%
+1728  leaf_1727    0.00%    passed     94.04%
+1729  leaf_1728    0.00%    passed     99.56%
+1730  leaf_1729    0.00%    passed     99.85%
+1731  leaf_1730    0.00%    passed     93.16%
+1732  leaf_1731    0.00%    passed     99.29%
+1733  leaf_1732    0.00%    passed     98.20%
+1734  leaf_1733    0.00%    passed     96.98%
+1735  leaf_1734    0.00%    passed     99.01%
+1736  leaf_1735    0.00%    passed     99.57%
+1737  leaf_1736    0.00%    passed     98.15%
+1738  leaf_1737    0.00%    passed     99.84%
+1739  leaf_1738    0.00%    passed     99.44%
+1740  leaf_1739    0.00%    passed     99.12%
+1741  leaf_1740    0.00%    passed     99.91%
+1742  leaf_1741    0.00%    passed     98.76%
+1743  leaf_1742    0.00%    passed     99.57%
+1744  leaf_1743    0.00%    passed     99.91%
+1745  leaf_1744    0.00%    passed     99.93%
+1746  leaf_1745    0.00%    passed     99.36%
+1747  leaf_1746    0.00%    passed     99.86%
+1748  leaf_1747    0.00%    passed     98.51%
+1749  leaf_1748    0.00%    passed     96.99%
+1750  leaf_1749    0.00%    passed     99.67%
+1751  leaf_1750    0.00%    passed     97.85%
+1752  leaf_1751    0.00%    passed     99.22%
+1753  leaf_1752    0.00%    passed     98.66%
+1754  leaf_1753    0.00%    passed     99.95%
+1755  leaf_1754    0.00%    passed     99.81%
+1756  leaf_1755    0.00%    passed     97.70%
+1757  leaf_1756    0.00%    passed     99.88%
+1758  leaf_1757    0.00%    passed     99.20%
+1759  leaf_1758    0.00%    passed     99.74%
+1760  leaf_1759    0.00%    passed     99.41%
+1761  leaf_1760    0.00%    passed     99.67%
+1762  leaf_1761    0.00%    passed     97.93%
+1763  leaf_1762    0.00%    passed     99.18%
+1764  leaf_1763    0.00%    passed     99.41%
+1765  leaf_1764    0.00%    passed     99.45%
+1766  leaf_1765    0.00%    passed     99.70%
+1767  leaf_1766    0.00%    passed     97.59%
+1768  leaf_1767    0.00%    passed     99.39%
+1769  leaf_1768    0.00%    passed     99.81%
+1770  leaf_1769    0.00%    passed     99.41%
+1771  leaf_1770    0.00%    passed     99.14%
+1772  leaf_1771    0.00%    passed     99.35%
+1773  leaf_1772    0.00%    passed     99.80%
+1774  leaf_1773    0.00%    passed     99.20%
+1775  leaf_1774    0.00%    passed     96.76%
+1776  leaf_1775    0.00%    passed     99.93%
+1777  leaf_1776    0.00%    passed     95.69%
+1778  leaf_1777    0.00%    passed     99.93%
+1779  leaf_1778    0.00%    passed     98.61%
+1780  leaf_1779    0.00%    passed     98.14%
+1781  leaf_1780    0.00%    passed     99.14%
+1782  leaf_1781    0.00%    passed     98.72%
+1783  leaf_1782    0.00%    passed     99.86%
+1784  leaf_1783    0.00%    passed     96.88%
+1785  leaf_1784    0.00%    passed     99.24%
+1786  leaf_1785    0.00%    passed     99.83%
+1787  leaf_1786    0.00%    passed     99.84%
+1788  leaf_1787    0.00%    passed     99.80%
+1789  leaf_1788    0.00%    passed     99.16%
+1790  leaf_1789    0.00%    passed     99.69%
+1791  leaf_1790    0.00%    passed     99.45%
+1792  leaf_1791    0.00%    passed     98.62%
+1793  leaf_1792    0.00%    passed     99.55%
+1794  leaf_1793    0.00%    passed     98.77%
+1795  leaf_1794    0.00%    passed     99.09%
+1796  leaf_1795    0.00%    passed     97.96%
+1797  leaf_1796    0.00%    passed     97.67%
+1798  leaf_1797    0.00%    passed     97.69%
+1799  leaf_1798    0.00%    passed     98.74%
+1800  leaf_1799    0.00%    passed     99.41%
+1801  leaf_1800    0.00%    passed     98.67%
+1802  leaf_1801    0.00%    passed     99.73%
+1803  leaf_1802    0.00%    passed     99.45%
+1804  leaf_1803    0.00%    passed     97.41%
+1805  leaf_1804    0.00%    passed     99.76%
+1806  leaf_1805    0.00%    passed     99.89%
+1807  leaf_1806    0.00%    passed     99.60%
+1808  leaf_1807    0.00%    passed     98.38%
+1809  leaf_1808    0.00%    passed     98.19%
+1810  leaf_1809    0.00%    passed     99.79%
+1811  leaf_1810    0.00%    passed     99.51%
+1812  leaf_1811    0.00%    passed     98.76%
+1813  leaf_1812    0.00%    passed     99.65%
+1814  leaf_1813    0.00%    passed     99.45%
+1815  leaf_1814    0.00%    passed     96.20%
+1816  leaf_1815    0.00%    passed     98.91%
+1817  leaf_1816    0.00%    passed     98.39%
+1818  leaf_1817    0.00%    passed     99.51%
+1819  leaf_1818    0.00%    passed     99.60%
+1820  leaf_1819    0.00%    passed     99.91%
+1821  leaf_1820    0.00%    passed     99.64%
+1822  leaf_1821    0.00%    passed     99.80%
+1823  leaf_1822    0.00%    passed     98.91%
+1824  leaf_1823    0.00%    passed     99.71%
+1825  leaf_1824    0.00%    passed     99.15%
+1826  leaf_1825    0.00%    passed     99.43%
+1827  leaf_1826    0.00%    passed     99.57%
+1828  leaf_1827    0.00%    passed     99.53%
+1829  leaf_1828    0.00%    passed     99.85%
+1830  leaf_1829    0.00%    passed     99.95%
+1831  leaf_1830    0.00%    passed     99.48%
+1832  leaf_1831    0.00%    passed     98.52%
+1833  leaf_1832    0.00%    passed     99.74%
+1834  leaf_1833    0.00%    passed     99.47%
+1835  leaf_1834    0.00%    passed     99.75%
+1836  leaf_1835    0.00%    passed     94.81%
+1837  leaf_1836    0.00%    passed     99.29%
+1838  leaf_1837    0.00%    passed     99.57%
+1839  leaf_1838    0.00%    passed     99.71%
+1840  leaf_1839    0.00%    passed     99.20%
+1841  leaf_1840    0.00%    passed     98.69%
+1842  leaf_1841    0.00%    passed     99.43%
+1843  leaf_1842    0.00%    passed     99.35%
+1844  leaf_1843    0.00%    passed     96.73%
+1845  leaf_1844    0.00%    passed     98.38%
+1846  leaf_1845    0.00%    passed     98.73%
+1847  leaf_1846    0.00%    passed     99.60%
+1848  leaf_1847    0.00%    passed     99.91%
+1849  leaf_1848    0.00%    passed     99.64%
+1850  leaf_1849    0.00%    passed     97.55%
+1851  leaf_1850    0.00%    passed     99.92%
+1852  leaf_1851    0.00%    passed     96.85%
+1853  leaf_1852    0.00%    passed     99.49%
+1854  leaf_1853    0.00%    passed     98.08%
+1855  leaf_1854    0.00%    passed     99.56%
+1856  leaf_1855    0.00%    passed     99.23%
+1857  leaf_1856    0.00%    passed     98.68%
+1858  leaf_1857    0.00%    passed     99.14%
+1859  leaf_1858    0.00%    passed     99.88%
+1860  leaf_1859    0.00%    passed     99.21%
+1861  leaf_1860    0.00%    passed     99.57%
+1862  leaf_1861    0.00%    passed     99.95%
+1863  leaf_1862    0.00%    passed     99.71%
+1864  leaf_1863    0.00%    passed     99.06%
+1865  leaf_1864    0.00%    passed     99.83%
+1866  leaf_1865    0.00%    passed     99.10%
+1867  leaf_1866    0.00%    passed     98.81%
+1868  leaf_1867    0.00%    passed     99.53%
+1869  leaf_1868    0.00%    passed     99.80%
+1870  leaf_1869    0.00%    passed     99.93%
+1871  leaf_1870    0.00%    passed     98.31%
+1872  leaf_1871    0.00%    passed     99.72%
+1873  leaf_1872    0.00%    passed     99.59%
+1874  leaf_1873    0.00%    passed     99.91%
+1875  leaf_1874    0.00%    passed     99.41%
+1876  leaf_1875    0.00%    passed     99.12%
+1877  leaf_1876    0.00%    passed     99.44%
+1878  leaf_1877    0.00%    passed     98.78%
+1879  leaf_1878    0.00%    passed     99.24%
+1880  leaf_1879    0.00%    passed     99.89%
+1881  leaf_1880    0.00%    passed     99.73%
+1882  leaf_1881    0.00%    passed     99.12%
+1883  leaf_1882    0.00%    passed     98.20%
+1884  leaf_1883    0.00%    passed     98.64%
+1885  leaf_1884    0.00%    passed     98.69%
+1886  leaf_1885    0.00%    passed     99.06%
+1887  leaf_1886    0.00%    passed     99.99%
+1888  leaf_1887    0.00%    passed     99.49%
+1889  leaf_1888    0.00%    passed     99.90%
+1890  leaf_1889    0.00%    passed     99.62%
+1891  leaf_1890    0.00%    passed     97.75%
+1892  leaf_1891    0.00%    passed     99.66%
+1893  leaf_1892    0.00%    passed     99.86%
+1894  leaf_1893    0.00%    passed     99.76%
+1895  leaf_1894    0.00%    passed     97.26%
+1896  leaf_1895    0.00%    passed     99.83%
+1897  leaf_1896    0.00%    passed     99.19%
+1898  leaf_1897    0.00%    passed     99.59%
+1899  leaf_1898    0.00%    passed     99.05%
+1900  leaf_1899    0.00%    passed     99.17%
+1901  leaf_1900    0.00%    passed     99.46%
+1902  leaf_1901    0.00%    passed     99.71%
+1903  leaf_1902    0.00%    passed     98.93%
+1904  leaf_1903    0.00%    passed     99.89%
+1905  leaf_1904    0.00%    passed     99.26%
+1906  leaf_1905    0.00%    passed     99.21%
+1907  leaf_1906    0.00%    passed     99.76%
+1908  leaf_1907    0.00%    passed     97.49%
+1909  leaf_1908    0.00%    passed     97.53%
+1910  leaf_1909    0.00%    passed     99.50%
+1911  leaf_1910    0.00%    passed     98.62%
+1912  leaf_1911    0.00%    passed     98.99%
+1913  leaf_1912    0.00%    passed     99.46%
+1914  leaf_1913    0.00%    passed     99.97%
+1915  leaf_1914    0.00%    passed     98.99%
+1916  leaf_1915    0.00%    passed     99.89%
+1917  leaf_1916    0.00%    passed     99.72%
+1918  leaf_1917    0.00%    passed     99.02%
+1919  leaf_1918    0.00%    passed     99.75%
+1920  leaf_1919    0.00%    passed     99.47%
+1921  leaf_1920    0.00%    passed     97.76%
+1922  leaf_1921    0.00%    passed     99.99%
+1923  leaf_1922    0.00%    passed     99.15%
+1924  leaf_1923    0.00%    passed     99.98%
+1925  leaf_1924    0.00%    passed     97.41%
+1926  leaf_1925    0.00%    passed     99.14%
+1927  leaf_1926    0.00%    passed     99.03%
+1928  leaf_1927    0.00%    passed     98.55%
+1929  leaf_1928    0.00%    passed     99.25%
+1930  leaf_1929    0.00%    passed     99.70%
+1931  leaf_1930    0.00%    passed     96.49%
+1932  leaf_1931    0.00%    passed     99.83%
+1933  leaf_1932    0.00%    passed     97.76%
+1934  leaf_1933    0.00%    passed     99.98%
+1935  leaf_1934    0.00%    passed     99.88%
+1936  leaf_1935    0.00%    passed     99.27%
+1937  leaf_1936    0.00%    passed     99.02%
+1938  leaf_1937    0.00%    passed     99.70%
+1939  leaf_1938    0.00%    passed     99.86%
+1940  leaf_1939    0.00%    passed     99.63%
+1941  leaf_1940    0.00%    passed     98.98%
+1942  leaf_1941    0.00%    passed     98.86%
+1943  leaf_1942    0.00%    passed     98.70%
+1944  leaf_1943    0.00%    passed     98.70%
+1945  leaf_1944    0.00%    passed     99.55%
+1946  leaf_1945    0.00%    passed     99.98%
+1947  leaf_1946    0.00%    passed     97.42%
+1948  leaf_1947    0.00%    passed     99.41%
+1949  leaf_1948    0.00%    passed     95.22%
+1950  leaf_1949    0.00%    passed     98.20%
+1951  leaf_1950    0.00%    passed     99.40%
+1952  leaf_1951    0.00%    passed     99.22%
+1953  leaf_1952    0.00%    passed     99.83%
+1954  leaf_1953    0.00%    passed     99.40%
+1955  leaf_1954    0.00%    passed     98.38%
+1956  leaf_1955    0.00%    passed     99.94%
+1957  leaf_1956    0.00%    passed     96.86%
+1958  leaf_1957    0.00%    passed     96.97%
+1959  leaf_1958    0.00%    passed     98.57%
+1960  leaf_1959    0.00%    passed     99.44%
+1961  leaf_1960    0.00%    passed     98.61%
+1962  leaf_1961    0.00%    passed     99.32%
+1963  leaf_1962    0.00%    passed     98.78%
+1964  leaf_1963    0.00%    passed     98.20%
+1965  leaf_1964    0.00%    passed     99.81%
+1966  leaf_1965    0.00%    passed     99.65%
+1967  leaf_1966    0.00%    passed     98.83%
+1968  leaf_1967    0.00%    passed     96.03%
+1969  leaf_1968    0.00%    passed     99.95%
+1970  leaf_1969    0.00%    passed     99.21%
+1971  leaf_1970    0.00%    passed     99.67%
+1972  leaf_1971    0.00%    passed     96.66%
+1973  leaf_1972    0.00%    passed     95.62%
+1974  leaf_1973    0.00%    passed     98.87%
+1975  leaf_1974    0.00%    passed     98.75%
+1976  leaf_1975    0.00%    passed     99.10%
+1977  leaf_1976    0.00%    passed     99.19%
+1978  leaf_1977    0.00%    passed     99.52%
+1979  leaf_1978    0.00%    passed     98.08%
+1980  leaf_1979    0.00%    passed     99.42%
+1981  leaf_1980    0.00%    passed     99.26%
+1982  leaf_1981    0.00%    passed     96.08%
+1983  leaf_1982    0.00%    passed     99.56%
+1984  leaf_1983    0.00%    passed     98.89%
+1985  leaf_1984    0.00%    passed     99.76%
+1986  leaf_1985    0.00%    passed     99.97%
+1987  leaf_1986    0.00%    passed     99.92%
+1988  leaf_1987    0.00%    passed     99.62%
+1989  leaf_1988    0.00%    passed     99.88%
+1990  leaf_1989    0.00%    passed     99.89%
+1991  leaf_1990    0.00%    passed     98.53%
+1992  leaf_1991    0.00%    passed     97.89%
+1993  leaf_1992    0.00%    passed     99.99%
+1994  leaf_1993    0.00%    passed     98.92%
+1995  leaf_1994    0.00%    passed     99.98%
+1996  leaf_1995    0.00%    passed     98.17%
+1997  leaf_1996    0.00%    passed     98.03%
+1998  leaf_1997    0.00%    passed     99.76%
+1999  leaf_1998    0.00%    passed     99.10%
+2000  leaf_1999    0.00%    passed     99.70%
+2001  leaf_2000    0.00%    passed    100.00%
+2002  leaf_2001    0.00%    passed     99.60%
+2003  leaf_2002    0.00%    passed     94.41%
+2004  leaf_2003    0.00%    passed     99.90%
+2005  leaf_2004    0.00%    passed     99.83%
+2006  leaf_2005    0.00%    passed     99.99%
+2007  leaf_2006    0.00%    passed     99.14%
+2008  leaf_2007    0.00%    passed     99.75%
+2009  leaf_2008    0.00%    passed     97.19%
+2010  leaf_2009    0.00%    passed     96.27%
+2011  leaf_2010    0.00%    passed     99.81%
+2012  leaf_2011    0.00%    passed     99.81%
+2013  leaf_2012    0.00%    passed     98.65%
+2014  leaf_2013    0.00%    passed     99.72%
+2015  leaf_2014    0.00%    passed     99.85%
+2016  leaf_2015    0.00%    passed     99.86%
+2017  leaf_2016    0.00%    passed     96.25%
+2018  leaf_2017    0.00%    passed     99.95%
+2019  leaf_2018    0.00%    passed     97.21%
+2020  leaf_2019    0.00%    passed     99.98%
+2021  leaf_2020    0.00%    passed     99.13%
+2022  leaf_2021    0.00%    passed     99.80%
+2023  leaf_2022    0.00%    passed     99.97%
+2024  leaf_2023    0.00%    passed     99.76%
+2025  leaf_2024    0.00%    passed     99.77%
+2026  leaf_2025    0.00%    passed     99.76%
+2027  leaf_2026    0.00%    passed     99.62%
+2028  leaf_2027    0.00%    passed     99.93%
+2029  leaf_2028    0.00%    passed     99.91%
+2030  leaf_2029    0.00%    passed     99.58%
+2031  leaf_2030    0.00%    passed     97.78%
+2032  leaf_2031    0.00%    passed     99.45%
+2033  leaf_2032    0.00%    passed     99.88%
+2034  leaf_2033    0.00%    passed     99.98%
+2035  leaf_2034    0.00%    passed     99.03%
+2036  leaf_2035    0.00%    passed     99.40%
+2037  leaf_2036    0.00%    passed     99.94%
+2038  leaf_2037    0.00%    passed     98.91%
+2039  leaf_2038    0.00%    passed     99.36%
+2040  leaf_2039    0.00%    passed     98.44%
+2041  leaf_2040    0.00%    passed     99.90%
+2042  leaf_2041    0.00%    passed     99.24%
+2043  leaf_2042    0.00%    passed     99.91%
+2044  leaf_2043    0.00%    passed     97.88%
+2045  leaf_2044    0.00%    passed     95.79%
+2046  leaf_2045    0.00%    passed     99.54%
+2047  leaf_2046    0.00%    passed     98.91%
+2048  leaf_2047    0.00%    passed     99.62%
+2049  leaf_2048    0.00%    passed     98.91%
+2050  leaf_2049    0.00%    passed     99.92%
+2051  leaf_2050    0.00%    passed     99.97%
+2052  leaf_2051    0.00%    passed     99.90%
+2053  leaf_2052    0.00%    passed     99.21%
+2054  leaf_2053    0.00%    passed     98.81%
+2055  leaf_2054    0.00%    passed     99.38%
+2056  leaf_2055    0.00%    passed     99.50%
+2057  leaf_2056    0.00%    passed     97.23%
+2058  leaf_2057    0.00%    passed     99.34%
+2059  leaf_2058    0.00%    passed     99.69%
+2060  leaf_2059    0.00%    passed     99.90%
+2061  leaf_2060    0.00%    passed     98.27%
+2062  leaf_2061    0.00%    passed     99.87%
+2063  leaf_2062    0.00%    passed     99.76%
+2064  leaf_2063    0.00%    passed     97.91%
+2065  leaf_2064    0.00%    passed     97.22%
+2066  leaf_2065    0.00%    passed     99.52%
+2067  leaf_2066    0.00%    passed     99.28%
+2068  leaf_2067    0.00%    passed     99.52%
+2069  leaf_2068    0.00%    passed     99.60%
+2070  leaf_2069    0.00%    passed     97.74%
+2071  leaf_2070    0.00%    passed     99.51%
+2072  leaf_2071    0.00%    passed     99.71%
+2073  leaf_2072    0.00%    passed     98.80%
+2074  leaf_2073    0.00%    passed     99.76%
+2075  leaf_2074    0.00%    passed     99.94%
+2076  leaf_2075    0.00%    passed     99.97%
+2077  leaf_2076    0.00%    passed     99.20%
+2078  leaf_2077    0.00%    passed     99.96%
+2079  leaf_2078    0.00%    passed     99.75%
+2080  leaf_2079    0.00%    passed     99.29%
+2081  leaf_2080    0.00%    passed     99.89%
+2082  leaf_2081    0.00%    passed     99.21%
+2083  leaf_2082    0.00%    passed     99.96%
+2084  leaf_2083    0.00%    passed     99.37%
+2085  leaf_2084    0.00%    passed     98.32%
+2086  leaf_2085    0.00%    passed     99.61%
+2087  leaf_2086    0.00%    passed     99.53%
+2088  leaf_2087    0.00%    passed     99.67%
+2089  leaf_2088    0.00%    passed     99.95%
+2090  leaf_2089    0.00%    passed     99.13%
+2091  leaf_2090    0.00%    passed     98.83%
+2092  leaf_2091    0.00%    passed     98.49%
+2093  leaf_2092    0.00%    passed     98.80%
+2094  leaf_2093    0.00%    passed     99.98%
+2095  leaf_2094    0.00%    passed     99.95%
+2096  leaf_2095    0.00%    passed     99.32%
+2097  leaf_2096    0.00%    passed     99.45%
+2098  leaf_2097    0.00%    passed     99.03%
+2099  leaf_2098    0.00%    passed     98.64%
+2100  leaf_2099    0.00%    passed     97.77%
+2101  leaf_2100    0.00%    passed     98.58%
+2102  leaf_2101    0.00%    passed     98.71%
+2103  leaf_2102    0.00%    passed     98.70%
+2104  leaf_2103    0.00%    passed     99.80%
+2105  leaf_2104    0.00%    passed     99.74%
+2106  leaf_2105    0.00%    passed     99.53%
+2107  leaf_2106    0.00%    passed     99.60%
+2108  leaf_2107    0.00%    passed     99.66%
+2109  leaf_2108    0.00%    passed     99.02%
+2110  leaf_2109    0.00%    passed     99.45%
+2111  leaf_2110    0.00%    passed     99.99%
+2112  leaf_2111    0.00%    passed     99.40%
+2113  leaf_2112    0.00%    passed     99.95%
+2114  leaf_2113    0.00%    passed     98.54%
+2115  leaf_2114    0.00%    passed     99.00%
+2116  leaf_2115    0.00%    passed     99.02%
+2117  leaf_2116    0.00%    passed     99.73%
+2118  leaf_2117    0.00%    passed     99.34%
+2119  leaf_2118    0.00%    passed     99.37%
+2120  leaf_2119    0.00%    passed     99.32%
+2121  leaf_2120    0.00%    passed     99.24%
+2122  leaf_2121    0.00%    passed     99.80%
+2123  leaf_2122    0.00%    passed     99.28%
+2124  leaf_2123    0.00%    passed     99.33%
+2125  leaf_2124    0.00%    passed     99.03%
+2126  leaf_2125    0.00%    passed     98.35%
+2127  leaf_2126    0.00%    passed     99.81%
+2128  leaf_2127    0.00%    passed     99.97%
+2129  leaf_2128    0.00%    passed     99.98%
+2130  leaf_2129    0.00%    passed     99.85%
+2131  leaf_2130    0.00%    passed     99.86%
+2132  leaf_2131    0.00%    passed     99.73%
+2133  leaf_2132    0.00%    passed     99.08%
+2134  leaf_2133    0.00%    passed     98.03%
+2135  leaf_2134    0.00%    passed     99.84%
+2136  leaf_2135    0.00%    passed     99.98%
+2137  leaf_2136    0.00%    passed     99.83%
+2138  leaf_2137    0.00%    passed     96.85%
+2139  leaf_2138    0.00%    passed     99.77%
+2140  leaf_2139    0.00%    passed     97.18%
+2141  leaf_2140    0.00%    passed     99.02%
+2142  leaf_2141    0.00%    passed     98.95%
+2143  leaf_2142    0.00%    passed     99.58%
+2144  leaf_2143    0.00%    passed     97.66%
+2145  leaf_2144    0.00%    passed     99.32%
+2146  leaf_2145    0.00%    passed     99.80%
+2147  leaf_2146    0.00%    passed     98.18%
+2148  leaf_2147    0.00%    passed     99.64%
+2149  leaf_2148    0.00%    passed     97.79%
+2150  leaf_2149    0.00%    passed     99.13%
+2151  leaf_2150    0.00%    passed     99.70%
+2152  leaf_2151    0.00%    passed     99.94%
+2153  leaf_2152    0.00%    passed     99.98%
+2154  leaf_2153    0.00%    passed     99.94%
+2155  leaf_2154    0.00%    passed     99.34%
+2156  leaf_2155    0.00%    passed     99.87%
+2157  leaf_2156    0.00%    passed     99.71%
+2158  leaf_2157    0.00%    passed     99.98%
+2159  leaf_2158    0.00%    passed     97.23%
+2160  leaf_2159    0.00%    passed     99.37%
+2161  leaf_2160    0.00%    passed     99.77%
+2162  leaf_2161    0.00%    passed     99.62%
+2163  leaf_2162    0.00%    passed     99.96%
+2164  leaf_2163    0.00%    passed     99.33%
+2165  leaf_2164    0.00%    passed     98.41%
+2166  leaf_2165    0.00%    passed     99.98%
+2167  leaf_2166    0.00%    passed     99.85%
+2168  leaf_2167    0.00%    passed     99.96%
+2169  leaf_2168    0.00%    passed     99.92%
+2170  leaf_2169    0.00%    passed     99.28%
+2171  leaf_2170    0.00%    passed     99.86%
+2172  leaf_2171    0.00%    passed     97.91%
+2173  leaf_2172    0.00%    passed     99.54%
+2174  leaf_2173    0.00%    passed     99.62%
+2175  leaf_2174    0.00%    passed     99.92%
+2176  leaf_2175    0.00%    passed     99.49%
+2177  leaf_2176    0.00%    passed     99.29%
+2178  leaf_2177    0.00%    passed     99.58%
+2179  leaf_2178    0.00%    passed     99.32%
+2180  leaf_2179    0.00%    passed     99.98%
+2181  leaf_2180    0.00%    passed     99.33%
+2182  leaf_2181    0.00%    passed     99.58%
+2183  leaf_2182    0.00%    passed     99.85%
+2184  leaf_2183    0.00%    passed     99.36%
+2185  leaf_2184    0.00%    passed     97.50%
+2186  leaf_2185    0.00%    passed     99.89%
+2187  leaf_2186    0.00%    passed     99.59%
+2188  leaf_2187    0.00%    passed     99.44%
+2189  leaf_2188    0.00%    passed     98.77%
+2190  leaf_2189    0.00%    passed     99.41%
+2191  leaf_2190    0.00%    passed     99.73%
+2192  leaf_2191    0.00%    passed     99.73%
+2193  leaf_2192    0.00%    passed     99.55%
+2194  leaf_2193    0.00%    passed     99.23%
+2195  leaf_2194    0.00%    passed     99.64%
+2196  leaf_2195    0.00%    passed     99.70%
+2197  leaf_2196    0.00%    passed     99.71%
+2198  leaf_2197    0.00%    passed     99.42%
+2199  leaf_2198    0.00%    passed     95.40%
+2200  leaf_2199    0.00%    passed     98.24%
+2201  leaf_2200    0.00%    passed     99.07%
+2202  leaf_2201    0.00%    passed     99.67%
+2203  leaf_2202    0.00%    passed     99.45%
+2204  leaf_2203    0.00%    passed     99.86%
+2205  leaf_2204    0.00%    passed     99.91%
+2206  leaf_2205    0.00%    passed     99.27%
+2207  leaf_2206    0.00%    passed     99.94%
+2208  leaf_2207    0.00%    passed     99.60%
+2209  leaf_2208    0.00%    passed     99.91%
+2210  leaf_2209    0.00%    passed     99.92%
+2211  leaf_2210    0.00%    passed     99.16%
+2212  leaf_2211    0.00%    passed     99.52%
+2213  leaf_2212    0.00%    passed     99.89%
+2214  leaf_2213    0.00%    passed     99.89%
+2215  leaf_2214    0.00%    passed     98.42%
+2216  leaf_2215    0.00%    passed     99.51%
+2217  leaf_2216    0.00%    passed     99.98%
+2218  leaf_2217    0.00%    passed     94.09%
+2219  leaf_2218    0.00%    passed     98.97%
+2220  leaf_2219    0.00%    passed     99.82%
+2221  leaf_2220    0.00%    passed     99.89%
+2222  leaf_2221    0.00%    passed     99.97%
+2223  leaf_2222    0.00%    passed     98.55%
+2224  leaf_2223    0.00%    passed     99.76%
+2225  leaf_2224    0.00%    passed     99.84%
+2226  leaf_2225    0.00%    passed     99.43%
+2227  leaf_2226    0.00%    passed     99.37%
+2228  leaf_2227    0.00%    passed     99.98%
+2229  leaf_2228    0.00%    passed     99.11%
+2230  leaf_2229    0.00%    passed     98.67%
+2231  leaf_2230    0.00%    passed     97.25%
+2232  leaf_2231    0.00%    passed     99.53%
+2233  leaf_2232    0.00%    passed     99.70%
+2234  leaf_2233    0.00%    passed     99.94%
+2235  leaf_2234    0.00%    passed     99.60%
+2236  leaf_2235    0.00%    passed     99.75%
+2237  leaf_2236    0.00%    passed     99.90%
+2238  leaf_2237    0.00%    passed     99.80%
+2239  leaf_2238    0.00%    passed     99.89%
+2240  leaf_2239    0.00%    passed     98.56%
+2241  leaf_2240    0.00%    passed     99.03%
+2242  leaf_2241    0.00%    passed     99.98%
+2243  leaf_2242    0.00%    passed     94.34%
+2244  leaf_2243    0.00%    passed     99.76%
+2245  leaf_2244    0.00%    passed     99.72%
+2246  leaf_2245    0.00%    passed     98.71%
+2247  leaf_2246    0.00%    passed     99.76%
+2248  leaf_2247    0.00%    passed     99.67%
+2249  leaf_2248    0.00%    passed     99.53%
+2250  leaf_2249    0.00%    passed     98.65%
+2251  leaf_2250    0.00%    passed     99.98%
+2252  leaf_2251    0.00%    passed     98.90%
+2253  leaf_2252    0.00%    passed     96.65%
+2254  leaf_2253    0.00%    passed     99.99%
+2255  leaf_2254    0.00%    passed     98.90%
+2256  leaf_2255    0.00%    passed     99.90%
+2257  leaf_2256    0.00%    passed    100.00%
+2258  leaf_2257    0.00%    passed     99.96%
+2259  leaf_2258    0.00%    passed     99.98%
+2260  leaf_2259    0.00%    passed     99.28%
+2261  leaf_2260    0.00%    passed     97.51%
+2262  leaf_2261    0.00%    passed     96.51%
+2263  leaf_2262    0.00%    passed     99.65%
+2264  leaf_2263    0.00%    passed     99.30%
+2265  leaf_2264    0.00%    passed     99.23%
+2266  leaf_2265    0.00%    passed     99.78%
+2267  leaf_2266    0.00%    passed     99.51%
+2268  leaf_2267    0.00%    passed     99.49%
+2269  leaf_2268    0.00%    passed     99.34%
+2270  leaf_2269    0.00%    passed     99.20%
+2271  leaf_2270    0.00%    passed     99.11%
+2272  leaf_2271    0.00%    passed     99.31%
+2273  leaf_2272    0.00%    passed     96.77%
+2274  leaf_2273    0.00%    passed     99.50%
+2275  leaf_2274    0.00%    passed     99.17%
+2276  leaf_2275    0.00%    passed     99.94%
+2277  leaf_2276    0.00%    passed     99.59%
+2278  leaf_2277    0.00%    passed     98.95%
+2279  leaf_2278    0.00%    passed     99.31%
+2280  leaf_2279    0.00%    passed     99.97%
+2281  leaf_2280    0.00%    passed     99.91%
+2282  leaf_2281    0.00%    passed     99.15%
+2283  leaf_2282    0.00%    passed     99.81%
+2284  leaf_2283    0.00%    passed     99.49%
+2285  leaf_2284    0.00%    passed     99.31%
+2286  leaf_2285    0.00%    passed     99.35%
+2287  leaf_2286    0.00%    passed     99.89%
+2288  leaf_2287    0.00%    passed     99.62%
+2289  leaf_2288    0.00%    passed     99.83%
+2290  leaf_2289    0.00%    passed     98.82%
+2291  leaf_2290    0.00%    passed     99.89%
+2292  leaf_2291    0.00%    passed     98.65%
+2293  leaf_2292    0.00%    passed     96.62%
+2294  leaf_2293    0.00%    passed     99.57%
+2295  leaf_2294    0.00%    passed     99.99%
+2296  leaf_2295    0.00%    passed     99.65%
+2297  leaf_2296    0.00%    passed     99.94%
+2298  leaf_2297    0.00%    passed     98.27%
+2299  leaf_2298    0.00%    passed     99.98%
+2300  leaf_2299    0.00%    passed     99.93%
+2301  leaf_2300    0.00%    passed     98.53%
+2302  leaf_2301    0.00%    passed     99.76%
+2303  leaf_2302    0.00%    passed     99.92%
+2304  leaf_2303    0.00%    passed     99.97%
+2305  leaf_2304    0.00%    passed     99.78%
+2306  leaf_2305    0.00%    passed     98.22%
+2307  leaf_2306    0.00%    passed     99.96%
+2308  leaf_2307    0.00%    passed     99.14%
+2309  leaf_2308    0.00%    passed     98.90%
+2310  leaf_2309    0.00%    passed     99.59%
+2311  leaf_2310    0.00%    passed     99.54%
+2312  leaf_2311    0.00%    passed     98.60%
+2313  leaf_2312    0.00%    passed     99.75%
+2314  leaf_2313    0.00%    passed     99.98%
+2315  leaf_2314    0.00%    passed     99.59%
+2316  leaf_2315    0.00%    passed     99.99%
+2317  leaf_2316    0.00%    passed     99.85%
+2318  leaf_2317    0.00%    passed     98.53%
+2319  leaf_2318    0.00%    passed     99.59%
+2320  leaf_2319    0.00%    passed     99.98%
+2321  leaf_2320    0.00%    passed     99.95%
+2322  leaf_2321    0.00%    passed     99.99%
+2323  leaf_2322    0.00%    passed     99.49%
+2324  leaf_2323    0.00%    passed     99.77%
+2325  leaf_2324    0.00%    passed     99.89%
+2326  leaf_2325    0.00%    passed     99.98%
+2327  leaf_2326    0.00%    passed     99.94%
+2328  leaf_2327    0.00%    passed     99.13%
+2329  leaf_2328    0.00%    passed     98.80%
+2330  leaf_2329    0.00%    passed     99.59%
+2331  leaf_2330    0.00%    passed     99.78%
+2332  leaf_2331    0.00%    passed     99.97%
+2333  leaf_2332    0.00%    passed     99.60%
+2334  leaf_2333    0.00%    passed     99.51%
+2335  leaf_2334    0.00%    passed     99.39%
+2336  leaf_2335    0.00%    passed     99.96%
+2337  leaf_2336    0.00%    passed     99.76%
+2338  leaf_2337    0.00%    passed     99.90%
+2339  leaf_2338    0.00%    passed     99.69%
+2340  leaf_2339    0.00%    passed     99.78%
+2341  leaf_2340    0.00%    passed     99.87%
+2342  leaf_2341    0.00%    passed     99.85%
+2343  leaf_2342    0.00%    passed     99.87%
+2344  leaf_2343    0.00%    passed     99.21%
+2345  leaf_2344    0.00%    passed     99.24%
+2346  leaf_2345    0.00%    passed     99.94%
+2347  leaf_2346    0.00%    passed     99.10%
+2348  leaf_2347    0.00%    passed     98.32%
+2349  leaf_2348    0.00%    passed     97.59%
+2350  leaf_2349    0.00%    passed     99.96%
+2351  leaf_2350    0.00%    passed     98.60%
+2352  leaf_2351    0.00%    passed     99.91%
+2353  leaf_2352    0.00%    passed     99.21%
+2354  leaf_2353    0.00%    passed     99.59%
+2355  leaf_2354    0.00%    passed     99.95%
+2356  leaf_2355    0.00%    passed     99.99%
+2357  leaf_2356    0.00%    passed     99.85%
+2358  leaf_2357    0.00%    passed     97.90%
+2359  leaf_2358    0.00%    passed     99.60%
+2360  leaf_2359    0.00%    passed     99.91%
+2361  leaf_2360    0.00%    passed     98.74%
+2362  leaf_2361    0.00%    passed     99.92%
+2363  leaf_2362    0.00%    passed     99.44%
+2364  leaf_2363    0.00%    passed     99.90%
+2365  leaf_2364    0.00%    passed     99.93%
+2366  leaf_2365    0.00%    passed     99.85%
+2367  leaf_2366    0.00%    passed     98.85%
+2368  leaf_2367    0.00%    passed    100.00%
+2369  leaf_2368    0.00%    passed     98.25%
+2370  leaf_2369    0.00%    passed     99.92%
+2371  leaf_2370    0.00%    passed     99.98%
+2372  leaf_2371    0.00%    passed     99.74%
+2373  leaf_2372    0.00%    passed     99.73%
+2374  leaf_2373    0.00%    passed     99.80%
+2375  leaf_2374    0.00%    passed     99.85%
+2376  leaf_2375    0.00%    passed     99.45%
+2377  leaf_2376    0.00%    passed     99.99%
+2378  leaf_2377    0.00%    passed     99.67%
+2379  leaf_2378    0.00%    passed     99.93%
+2380  leaf_2379    0.00%    passed     97.68%
+2381  leaf_2380    0.00%    passed     99.99%
+2382  leaf_2381    0.00%    passed     99.34%
+2383  leaf_2382    0.00%    passed     99.90%
+2384  leaf_2383    0.00%    passed     99.98%
+2385  leaf_2384    0.00%    passed     99.37%
+2386  leaf_2385    0.00%    passed     98.51%
+2387  leaf_2386    0.00%    passed     97.84%
+2388  leaf_2387    0.00%    passed     99.56%
+2389  leaf_2388    0.00%    passed     99.37%
+2390  leaf_2389    0.00%    passed     99.99%
+2391  leaf_2390    0.00%    passed     99.94%
+2392  leaf_2391    0.00%    passed     99.94%
+2393  leaf_2392    0.00%    passed     99.97%
+2394  leaf_2393    0.00%    passed     99.98%
+2395  leaf_2394    0.00%    passed     98.79%
+2396  leaf_2395    0.00%    passed     99.95%
+2397  leaf_2396    0.00%    passed     99.79%
+2398  leaf_2397    0.00%    passed     97.84%
+2399  leaf_2398    0.00%    passed     99.94%
+2400  leaf_2399    0.00%    passed     99.61%
+2401  leaf_2400    0.00%    passed     99.99%
+2402  leaf_2401    0.00%    passed     99.82%
+2403  leaf_2402    0.00%    passed     99.98%
+2404  leaf_2403    0.00%    passed     99.97%
+2405  leaf_2404    0.00%    passed     99.55%
+2406  leaf_2405    0.00%    passed     99.98%
+2407  leaf_2406    0.00%    passed     99.92%
+2408  leaf_2407    0.00%    passed     99.44%
+2409  leaf_2408    0.00%    passed     99.29%
+2410  leaf_2409    0.00%    passed     99.98%
+2411  leaf_2410    0.00%    passed     99.67%
+2412  leaf_2411    0.00%    passed     99.71%
+2413  leaf_2412    0.00%    passed     99.99%
+2414  leaf_2413    0.00%    passed     99.65%
+2415  leaf_2414    0.00%    passed     99.96%
+2416  leaf_2415    0.00%    passed     99.10%
+2417  leaf_2416    0.00%    passed    100.00%
+2418  leaf_2417    0.00%    passed     99.41%
+2419  leaf_2418    0.00%    passed     99.37%
+2420  leaf_2419    0.00%    passed     99.92%
+2421  leaf_2420    0.00%    passed     99.90%
+2422  leaf_2421    0.00%    passed     99.70%
+2423  leaf_2422    0.00%    passed     99.98%
+2424  leaf_2423    0.00%    passed     99.83%
+2425  leaf_2424    0.00%    passed     99.91%
+2426  leaf_2425    0.00%    passed     99.95%
+2427  leaf_2426    0.00%    passed     99.58%
+2428  leaf_2427    0.00%    passed     99.93%
+2429  leaf_2428    0.00%    passed     99.95%
+2430  leaf_2429    0.00%    passed     99.94%
+2431  leaf_2430    0.00%    passed     99.98%
+2432  leaf_2431    0.00%    passed     99.94%
+2433  leaf_2432    0.00%    passed     99.99%
+2434  leaf_2433    0.00%    passed     99.98%
+****  TOTAL        0.00%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: leaf_419 is identical to leaf_412 but kept for subsequent analysis
+NOTE: leaf_1670 is identical to leaf_1516 but kept for subsequent analysis
+NOTE: leaf_1635 is identical to leaf_1630 but kept for subsequent analysis
+NOTE: leaf_1943 is identical to leaf_1942 but kept for subsequent analysis
+NOTE: leaf_2317 is identical to leaf_2300 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 14.803 seconds
+
+NOTE: 394 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 1 CPU cores
+2 trees examined
+Threads: 1 / Time: 9.477 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1195829
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -334079.760
+2. Current log-likelihood: -334054.386
+Optimal log-likelihood: -334054.344
+Rate parameters:  A-C: 0.99499  A-G: 0.99524  A-T: 0.96236  C-G: 1.00350  C-T: 1.00100  G-T: 1.00000
+Base frequencies:  A: 0.254  C: 0.248  G: 0.241  T: 0.257
+Parameters optimization took 2 rounds (21.646 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 57.8124 secs using 99.62% CPU
+Computing ML distances took 58.134272 sec (of wall-clock time) 57.833591 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.403355 secs using 90.64% CPU
+Computing RapidNJ tree took 1.407214 sec (of wall-clock time) 1.322641 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -334143.232
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -334053.941
+Finish initializing candidate tree set (4)
+Current best tree score: -334053.941 / CPU time: 39.649
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:2m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -334053.941
+Optimal log-likelihood: -334053.939
+Rate parameters:  A-C: 0.99524  A-G: 0.99564  A-T: 0.96264  C-G: 1.00381  C-T: 1.00129  G-T: 1.00000
+Base frequencies:  A: 0.254  C: 0.248  G: 0.241  T: 0.257
+Parameters optimization took 1 rounds (6.402 sec)
+BEST SCORE FOUND : -334053.939
+Total tree length: 8.201
+
+Total number of iterations: 2
+CPU time used for tree search: 39.367 sec (0h:0m:39s)
+Wall-clock time used for tree search: 39.666 sec (0h:0m:39s)
+Total CPU time used: 168.867 sec (0h:2m:48s)
+Total wall-clock time used: 172.483 sec (0h:2m:52s)
+
+Analysis results written to: 
+  IQ-TREE report:                data/simulated_alignment_larger-delim.fasta.iqtree
+  Maximum-likelihood tree:       data/simulated_alignment_larger-delim.fasta.treefile
+  Likelihood distances:          data/simulated_alignment_larger-delim.fasta.mldist
+  Screen log file:               data/simulated_alignment_larger-delim.fasta.log
+
+Date and Time: Mon Jul 28 15:55:02 2025
