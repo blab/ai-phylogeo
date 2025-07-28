@@ -1,0 +1,91 @@
+
+rule all:
+    input:
+        alignment = "results/simulated_alignment_much_larger.fasta",
+        metadata = "results/simulated_metadata_much_larger.csv"
+    
+def generate_seed():
+    return (
+       934857
+    )
+
+rule generate_xml_file:
+    """Generating XML for each scenario"""
+    output:
+        xml_file = "results/xmls/scenario_much_larger.xml"
+    params:
+        remaster_trees = "results/remaster/simulated_tree_much_larger.trees",
+        remaster_nexus = "results/remaster/simulated_nexus_much_larger.nexus",
+        remaster_traj = "results/remaster/simulated_traj_much_larger.traj"
+    shell:
+        r"""
+        Rscript ./scripts/write_xml_much_larger.R {output.xml_file} {params.remaster_trees} {params.remaster_nexus} {params.remaster_traj}
+        """
+
+rule simulate_from_xml:
+    """Simulate from ReMASTER using XML"""
+    input:
+        xml_file = rules.generate_xml_file.output.xml_file,
+    params:
+        true_seed = 43956
+    output:
+        remaster_trees = rules.generate_xml_file.params.remaster_trees,
+        remaster_nexus = rules.generate_xml_file.params.remaster_nexus,
+        remaster_traj = rules.generate_xml_file.params.remaster_traj
+    shell:
+        """
+        /Applications/BEAST2.7.5/bin/beast -seed {params.true_seed} -overwrite {input.xml_file} 
+        """
+
+rule extract_fasta_from_remaster_simul:
+    """Extract alignment file from nexus"""
+    input:
+        remaster_nexus = rules.simulate_from_xml.output.remaster_nexus
+    output:
+        alignment = "results/simulated_alignment_much_larger.fasta"
+    shell:
+        """
+        sed '1d;2d;3d;4d;5d;6d;7d;8d;9d;10d;11d;$d' {input.remaster_nexus} |
+        sed -e "s/\\t\\t/>/g" |
+        sed -e "s/ /\\n/g" |
+        sed -e "s/;//g" > {output.alignment}
+        """
+
+rule extract_metadata_from_remaster_simul:
+    """Extract alignment file from remaster output"""
+    input:
+        remaster_trees = rules.simulate_from_xml.output.remaster_trees
+    output:
+        metadata = "results/simulated_metadata_much_larger.csv"
+    shell:
+        """
+        Rscript ./scripts/get_metadata_from_remaster.R {input.remaster_trees} {output.metadata}
+        """
+
+rule tree:
+    input:
+        alignment = rules.extract_fasta_from_remaster_simul.output.alignment
+    output:
+        tree = "results/augur/tree_raw_much_larger.nwk",
+    shell:
+        """
+        augur tree --alignment {input.alignment} --output {output.tree}
+        """
+
+rule refine:
+    input:
+        tree = rules.tree.output.tree,
+        alignment = rules.extract_fasta_from_remaster_simul.output.alignment,
+        metadata = rules.extract_metadata_from_remaster_simul.output.metadata
+    output:
+        tree = "results/augur/tree_much_larger.nwk",
+        node_data = "results/augur/branch_lengths_much_larger.json"
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} 
+        """
