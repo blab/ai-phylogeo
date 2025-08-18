@@ -2,8 +2,8 @@ rule all:
     input:
         auspice_json = "auspice/simulated.json",
 
-input_fasta = "data/simulated_alignment.fasta",
-input_metadata = "data/simulated_metadata.csv",
+input_fasta = "../../simulations/results/simulated_alignment.fasta",
+input_metadata = "../../simulations/results/simulated_metadata.csv",
 colors = "config/colors.tsv",
 auspice_config = "config/auspice_config.json"
 

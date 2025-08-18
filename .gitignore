@@ -4,4 +4,6 @@
 *.DS_Store?
 */.snakemake/*
 */*/.snakemake/*
+*/*/.snakemake/*/*
+*/*/.snakemake/*/*/*
 *.ipynb_checkpoints
