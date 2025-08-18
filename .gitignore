@@ -7,3 +7,4 @@
 */*/.snakemake/*/*
 */*/.snakemake/*/*/*
 *.ipynb_checkpoints
+*/*/.Rhistory
