@@ -8,3 +8,10 @@
 */*/.snakemake/*/*/*
 *.ipynb_checkpoints
 */*/.Rhistory
+
+simulations/results/remaster/*.trees
+simulations/results/remaster/*.traj
+simulations/results/remaster/*.nexus
+simulations/results/*-delim.*
+
+
