@@ -21,7 +21,7 @@
       "type": "categorical"
     },
     {
-      "key": "subgroup_true",
+      "key": "true_subgroup",
       "title": "True Subgroup",
       "type": "categorical"
     },
