@@ -185,6 +185,24 @@ write_metadata_from_phylo_tree <- function(metadata_file_path, phylo_tree){
   write.csv(metadata_seq, metadata_file_path, quote = F, row.names = F)
 }
 
+write_metadata_from_phylo_tree_correct_date <- function(metadata_file_path, phylo_tree, date_0 = as.Date('2022-01-01')){
+  metadata_seq <- phylo_tree %>% 
+    filter(isTip == T, !is.na(time)) %>%
+    rename(subgroup = type) %>% 
+    mutate(subgroup = substr(subgroup, start = 3, stop = nchar(subgroup))) %>% 
+    select(label, time, subgroup) %>% 
+    as_tibble() %>% 
+    filter(! is.na(subgroup)) %>% 
+    rename(strain = label) %>% 
+    mutate(date = date_0 + floor(as.numeric(time))) %>% 
+    select(- time)
+  
+  metadata_seq <- metadata_seq %>% 
+    mutate(subgroup = LETTERS[as.numeric(subgroup) + 1])
+  
+  write.csv(metadata_seq, metadata_file_path, quote = F, row.names = F)
+}
+
 get_alignment_metadata <- function(xml_file_path, remaster_tree_path, remaster_nexus_path, alignment_path, metadata_path){
   # Read transmission tree (with associated node characteristics)
   phylo_tree <- read.beast(file = remaster_tree_path)

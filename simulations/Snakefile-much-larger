@@ -59,7 +59,7 @@ rule extract_metadata_from_remaster_simul:
         metadata = "results/simulated_metadata_much_larger.csv"
     shell:
         """
-        Rscript ./scripts/get_metadata_from_remaster.R {input.remaster_trees} {output.metadata}
+        Rscript ./scripts/get_metadata_from_remaster_correct_date_format.R {input.remaster_trees} {output.metadata}
         """
 
 rule tree:
