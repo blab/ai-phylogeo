@@ -1,0 +1,10 @@
+subgroup	A	#511EA8
+subgroup	B	#73B583
+subgroup	C	#E68F36
+
+subgroup_true	A	#511EA8
+subgroup_true	B	#73B583
+subgroup_true	C	#E68F36
+
+type	Test	#F54927
+type	Train	#2A20C9

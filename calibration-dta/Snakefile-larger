@@ -1,0 +1,193 @@
+rule all:
+    input:
+        tree = "results_larger/tree_raw.nwk",
+        node_data = "results_larger/branch_lengths.json",
+        nt_muts = "results_larger/nt_muts.json",
+        traits = "results_larger/traits.json",
+        traits_tsv = "results_larger/traits.tsv",
+        auspice_json = "auspice_larger/simulated.json",
+        
+
+rule files:
+    params:
+        input_metadata = "../simulations/results/simulated_metadata_larger.csv",
+        input_alignment = "../simulations/results/simulated_alignment_larger.fasta",
+        colors = "config/colors.tsv",
+        auspice_config = "config/auspice_config.json"
+
+rule train_test_split:
+    input:
+        alignment = rules.files.params.input_alignment,
+        metadata = rules.files.params.input_metadata,
+    params:
+        proportion_train = 0.8,
+        random_seed = 2435,
+    output:
+        metadata_train = "results_larger/metadata_train.tsv",
+        metadata_test = "results_larger/metadata_test.tsv",
+    shell:
+        """
+        csv2tsv -H {input.metadata} | tsv-sample -H --prob {params.proportion_train} > {output.metadata_train}
+        csv2tsv -H {input.metadata} | tsv-join -H --exclude -f {output.metadata_train} > {output.metadata_test}
+        """
+
+rule metadata_for_dta_calibration:
+    input:
+        metadata_train = rules.train_test_split.output.metadata_train,
+        metadata_test = rules.train_test_split.output.metadata_test
+    output:
+        metadata = "results_larger/metadata_for_dta_calibration.tsv",
+        metadata_test_masked_groups = "results_larger/metadata_test_masked_groups.tsv",
+    shell:
+        """
+        tsv-select -H --exclude subgroup {input.metadata_test} | awk -F'\t' -v OFS='\t' 'NR==1 {{print $0, "subgroup"; next}} {{print $0, "?"}}' > {output.metadata_test_masked_groups}
+        tsv-append -H {output.metadata_test_masked_groups} {input.metadata_train} > {output.metadata}
+        """
+
+rule tree:
+    message: "Building tree"
+    input:  
+        alignment = rules.files.params.input_alignment,
+    output:
+        tree = "results_larger/tree_raw.nwk"
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree}
+        """
+
+rule refine:
+    message:
+        """
+        Refining tree
+          - estimate timetree
+          - use {params.coalescent} coalescent timescale
+          - estimate {params.date_inference} node dates
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+        """
+    input:
+        tree = rules.tree.output.tree,
+        alignment = rules.files.params.input_alignment,
+        metadata = rules.metadata_for_dta_calibration.output.metadata
+    output:
+        tree = "results_larger/tree.nwk",
+        node_data = "results_larger/branch_lengths.json"
+    params:
+        coalescent = "opt",
+        date_inference = "marginal",
+        clock_filter_iqd = 4
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd}
+        """
+
+rule ancestral:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.refine.output.tree,
+        alignment = rules.files.params.input_alignment
+    output:
+        node_data = "results_larger/nt_muts.json"
+    params:
+        inference = "joint"
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --output-node-data {output.node_data} \
+            --inference {params.inference}
+        """
+
+rule traits:
+    message: "Inferring ancestral traits for {params.columns!s}"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.metadata_for_dta_calibration.output.metadata
+    output:
+        node_data = "results_larger/traits.json",
+    params:
+        columns = "subgroup"
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        augur traits \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --output-node-data {output.node_data} \
+            --columns {params.columns} \
+            --confidence
+        """
+
+rule extract_traits_tsv:
+    message: "Extracting subgroup confidence data to TSV"
+    input:
+        traits_json = rules.traits.output.node_data
+    output:
+        traits_tsv = "results_larger/traits.tsv"
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        Rscript scripts/extract_subgroups.R \
+            {input.traits_json} \
+            {output.traits_tsv}
+        """
+
+rule save_metadata_for_auspice:
+    message: "Create metadata file used for auspice json"
+    input:
+        metadata_not_masked = rules.files.params.input_metadata,
+        metadata_masked = rules.metadata_for_dta_calibration.output.metadata_test_masked_groups
+    output:
+        metadata = "results_larger/metadata_for_auspice.tsv"
+    shell:
+        r"""
+        Rscript ./scripts/prepare_metadata_auspice.R {input.metadata_not_masked}  {input.metadata_masked} {output.metadata}
+        """
+
+rule export:
+    message: "Exporting data files for for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.save_metadata_for_auspice.output.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        traits = rules.traits.output.node_data,
+        nt_muts = rules.ancestral.output.node_data,
+        colors = rules.files.params.colors,
+        auspice_config = rules.files.params.auspice_config
+    output:
+        auspice_json = "auspice_larger/simulated.json",
+    conda: "envs/nextstrain.yaml"
+    shell:
+        """
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} {input.traits} {input.nt_muts} \
+            --colors {input.colors} \
+            --auspice-config {input.auspice_config} \
+            --include-root-sequence \
+            --output {output.auspice_json}
+        """
+
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"

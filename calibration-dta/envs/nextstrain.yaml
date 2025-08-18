@@ -1,0 +1,8 @@
+name: nextstrain
+channels:
+  - nextstrain
+  - conda-forge
+dependencies:
+  - nextstrain-base
+  - r-base
+  - r-jsonlite
