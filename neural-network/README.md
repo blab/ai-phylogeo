@@ -1,5 +1,7 @@
+## Overview
+
 This folder includes:
-- `model`: Code, results, and figures analyzing the performance of our neural network. Currently, this folder only holds a model designed for our "much larger" simulated dataset of about 23,000 sequences. Future work will include developing analogous neural networks for datasets of different sizes.
+- `model`: Code, results, and figures analyzing the performance of our neural network. Currently, this folder contains the full workflow for a model designed for our "much larger" dataset, and a baseline model for our "larger" dataset. Future work will include building upon the early results from the "larger" dataset and developing analogous neural networks for datasets of different sizes.
 - `model-architectures`: Analysis of how the model performs at various architectures. This folder contains records of training and test loss for models trained over approximately 2,000, 4,000, and 18,000 sequences. Figures in this folder visualize the model performance over these different architectures.
 - `optimization`: Code to optimize a model's architecture based on the size/diversity of a dataset. These results were used early in the project to choose an appropriate neural network architecture.
 - `much_larger_pools`: A record of which sequences from the "much larger" dataset were assigned to training, testing, validation, and calibration sets in our corresponding model (found in `/model/much_larger`)
